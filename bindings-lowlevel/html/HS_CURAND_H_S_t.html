@@ -1,0 +1,1194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--Rendered using the Haskell Html Library v0.2-->
+<HTML
+><HEAD
+><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"
+><TITLE
+>HS_CURAND_H_S_t</TITLE
+><LINK HREF="haddock.css" REL="stylesheet" TYPE="text/css"
+><SCRIPT SRC="haddock-util.js" TYPE="text/javascript"
+></SCRIPT
+><SCRIPT TYPE="text/javascript"
+>window.onload = function () {setSynopsis("mini_HS_CURAND_H_S_t.html")};</SCRIPT
+></HEAD
+><BODY
+><TABLE CLASS="vanilla" CELLSPACING="0" CELLPADDING="0"
+><TR
+><TD CLASS="topbar"
+><TABLE CLASS="vanilla" CELLSPACING="0" CELLPADDING="0"
+><TR
+><TD
+><IMG SRC="haskell_icon.gif" WIDTH="16" HEIGHT="16" ALT=" "
+></TD
+><TD CLASS="title"
+></TD
+><TD CLASS="topbut"
+><A HREF="index.html"
+>Contents</A
+></TD
+><TD CLASS="topbut"
+><A HREF="doc-index.html"
+>Index</A
+></TD
+></TR
+></TABLE
+></TD
+></TR
+><TR
+><TD CLASS="modulebar"
+><TABLE CLASS="vanilla" CELLSPACING="0" CELLPADDING="0"
+><TR
+><TD
+><FONT SIZE="6"
+>HS_CURAND_H_S_t</FONT
+></TD
+></TR
+></TABLE
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="section1"
+>Documentation</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_char1"
+><A NAME="t%3AT_char1"
+></A
+></A
+><B
+>T_char1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_char1"
+>S_char1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_char2"
+><A NAME="t%3AT_char2"
+></A
+></A
+><B
+>T_char2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_char2"
+>S_char2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_char3"
+><A NAME="t%3AT_char3"
+></A
+></A
+><B
+>T_char3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_char3"
+>S_char3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_char4"
+><A NAME="t%3AT_char4"
+></A
+></A
+><B
+>T_char4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_char4"
+>S_char4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_cudaError_t"
+><A NAME="t%3AT_cudaError_t"
+></A
+></A
+><B
+>T_cudaError_t</B
+> = CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_cudaEvent_t"
+><A NAME="t%3AT_cudaEvent_t"
+></A
+></A
+><B
+>T_cudaEvent_t</B
+> = Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUevent_st"
+>S_CUevent_st</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_cudaGraphicsResource_t"
+><A NAME="t%3AT_cudaGraphicsResource_t"
+></A
+></A
+><B
+>T_cudaGraphicsResource_t</B
+> = Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaGraphicsResource"
+>S_cudaGraphicsResource</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_cudaStream_t"
+><A NAME="t%3AT_cudaStream_t"
+></A
+></A
+><B
+>T_cudaStream_t</B
+> = Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_cudaUUID_t"
+><A NAME="t%3AT_cudaUUID_t"
+></A
+></A
+><B
+>T_cudaUUID_t</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUuuid_st"
+>S_CUuuid_st</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_curandDirectionVectorSet_t"
+><A NAME="t%3AT_curandDirectionVectorSet_t"
+></A
+></A
+><B
+>T_curandDirectionVectorSet_t</B
+> = CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_curandDirectionVectors32_t"
+><A NAME="t%3AT_curandDirectionVectors32_t"
+></A
+></A
+><B
+>T_curandDirectionVectors32_t</B
+> = CUInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_curandGenerator_t"
+><A NAME="t%3AT_curandGenerator_t"
+></A
+></A
+><B
+>T_curandGenerator_t</B
+> = Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_curandOrdering_t"
+><A NAME="t%3AT_curandOrdering_t"
+></A
+></A
+><B
+>T_curandOrdering_t</B
+> = CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_curandRngType_t"
+><A NAME="t%3AT_curandRngType_t"
+></A
+></A
+><B
+>T_curandRngType_t</B
+> = CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_curandStatus_t"
+><A NAME="t%3AT_curandStatus_t"
+></A
+></A
+><B
+>T_curandStatus_t</B
+> = CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_dim3"
+><A NAME="t%3AT_dim3"
+></A
+></A
+><B
+>T_dim3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_dim3"
+>S_dim3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_double1"
+><A NAME="t%3AT_double1"
+></A
+></A
+><B
+>T_double1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_double1"
+>S_double1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_double2"
+><A NAME="t%3AT_double2"
+></A
+></A
+><B
+>T_double2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_double2"
+>S_double2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_double3"
+><A NAME="t%3AT_double3"
+></A
+></A
+><B
+>T_double3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_double3"
+>S_double3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_double4"
+><A NAME="t%3AT_double4"
+></A
+></A
+><B
+>T_double4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_double4"
+>S_double4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_float1"
+><A NAME="t%3AT_float1"
+></A
+></A
+><B
+>T_float1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_float1"
+>S_float1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_float2"
+><A NAME="t%3AT_float2"
+></A
+></A
+><B
+>T_float2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_float2"
+>S_float2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_float3"
+><A NAME="t%3AT_float3"
+></A
+></A
+><B
+>T_float3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_float3"
+>S_float3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_float4"
+><A NAME="t%3AT_float4"
+></A
+></A
+><B
+>T_float4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_float4"
+>S_float4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_int1"
+><A NAME="t%3AT_int1"
+></A
+></A
+><B
+>T_int1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_int1"
+>S_int1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_int2"
+><A NAME="t%3AT_int2"
+></A
+></A
+><B
+>T_int2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_int2"
+>S_int2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_int3"
+><A NAME="t%3AT_int3"
+></A
+></A
+><B
+>T_int3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_int3"
+>S_int3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_int4"
+><A NAME="t%3AT_int4"
+></A
+></A
+><B
+>T_int4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_int4"
+>S_int4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_long1"
+><A NAME="t%3AT_long1"
+></A
+></A
+><B
+>T_long1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_long1"
+>S_long1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_long2"
+><A NAME="t%3AT_long2"
+></A
+></A
+><B
+>T_long2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_long2"
+>S_long2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_long3"
+><A NAME="t%3AT_long3"
+></A
+></A
+><B
+>T_long3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_long3"
+>S_long3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_long4"
+><A NAME="t%3AT_long4"
+></A
+></A
+><B
+>T_long4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_long4"
+>S_long4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_longlong1"
+><A NAME="t%3AT_longlong1"
+></A
+></A
+><B
+>T_longlong1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_longlong1"
+>S_longlong1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_longlong2"
+><A NAME="t%3AT_longlong2"
+></A
+></A
+><B
+>T_longlong2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_longlong2"
+>S_longlong2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_longlong3"
+><A NAME="t%3AT_longlong3"
+></A
+></A
+><B
+>T_longlong3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_longlong3"
+>S_longlong3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_longlong4"
+><A NAME="t%3AT_longlong4"
+></A
+></A
+><B
+>T_longlong4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_longlong4"
+>S_longlong4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ptrdiff_t"
+><A NAME="t%3AT_ptrdiff_t"
+></A
+></A
+><B
+>T_ptrdiff_t</B
+> = CPtrdiff</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_short1"
+><A NAME="t%3AT_short1"
+></A
+></A
+><B
+>T_short1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_short1"
+>S_short1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_short2"
+><A NAME="t%3AT_short2"
+></A
+></A
+><B
+>T_short2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_short2"
+>S_short2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_short3"
+><A NAME="t%3AT_short3"
+></A
+></A
+><B
+>T_short3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_short3"
+>S_short3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_short4"
+><A NAME="t%3AT_short4"
+></A
+></A
+><B
+>T_short4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_short4"
+>S_short4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_size_t"
+><A NAME="t%3AT_size_t"
+></A
+></A
+><B
+>T_size_t</B
+> = CSize</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_uchar1"
+><A NAME="t%3AT_uchar1"
+></A
+></A
+><B
+>T_uchar1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_uchar1"
+>S_uchar1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_uchar2"
+><A NAME="t%3AT_uchar2"
+></A
+></A
+><B
+>T_uchar2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_uchar2"
+>S_uchar2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_uchar3"
+><A NAME="t%3AT_uchar3"
+></A
+></A
+><B
+>T_uchar3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_uchar3"
+>S_uchar3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_uchar4"
+><A NAME="t%3AT_uchar4"
+></A
+></A
+><B
+>T_uchar4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_uchar4"
+>S_uchar4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_uint1"
+><A NAME="t%3AT_uint1"
+></A
+></A
+><B
+>T_uint1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_uint1"
+>S_uint1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_uint2"
+><A NAME="t%3AT_uint2"
+></A
+></A
+><B
+>T_uint2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_uint2"
+>S_uint2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_uint3"
+><A NAME="t%3AT_uint3"
+></A
+></A
+><B
+>T_uint3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_uint3"
+>S_uint3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_uint4"
+><A NAME="t%3AT_uint4"
+></A
+></A
+><B
+>T_uint4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_uint4"
+>S_uint4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ulong1"
+><A NAME="t%3AT_ulong1"
+></A
+></A
+><B
+>T_ulong1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ulong1"
+>S_ulong1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ulong2"
+><A NAME="t%3AT_ulong2"
+></A
+></A
+><B
+>T_ulong2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ulong2"
+>S_ulong2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ulong3"
+><A NAME="t%3AT_ulong3"
+></A
+></A
+><B
+>T_ulong3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ulong3"
+>S_ulong3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ulong4"
+><A NAME="t%3AT_ulong4"
+></A
+></A
+><B
+>T_ulong4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ulong4"
+>S_ulong4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ulonglong1"
+><A NAME="t%3AT_ulonglong1"
+></A
+></A
+><B
+>T_ulonglong1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ulonglong1"
+>S_ulonglong1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ulonglong2"
+><A NAME="t%3AT_ulonglong2"
+></A
+></A
+><B
+>T_ulonglong2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ulonglong2"
+>S_ulonglong2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ulonglong3"
+><A NAME="t%3AT_ulonglong3"
+></A
+></A
+><B
+>T_ulonglong3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ulonglong3"
+>S_ulonglong3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ulonglong4"
+><A NAME="t%3AT_ulonglong4"
+></A
+></A
+><B
+>T_ulonglong4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ulonglong4"
+>S_ulonglong4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ushort1"
+><A NAME="t%3AT_ushort1"
+></A
+></A
+><B
+>T_ushort1</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ushort1"
+>S_ushort1</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ushort2"
+><A NAME="t%3AT_ushort2"
+></A
+></A
+><B
+>T_ushort2</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ushort2"
+>S_ushort2</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ushort3"
+><A NAME="t%3AT_ushort3"
+></A
+></A
+><B
+>T_ushort3</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ushort3"
+>S_ushort3</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_ushort4"
+><A NAME="t%3AT_ushort4"
+></A
+></A
+><B
+>T_ushort4</B
+> = <A HREF="HS_CURAND_H_S_n.html#t%3AS_ushort4"
+>S_ushort4</A
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><SPAN CLASS="keyword"
+>type</SPAN
+> <A NAME="t:T_wchar_t"
+><A NAME="t%3AT_wchar_t"
+></A
+></A
+><B
+>T_wchar_t</B
+> = CWchar</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="botbar"
+>Produced by <A HREF="http://www.haskell.org/haddock/"
+>Haddock</A
+> version 2.6.1</TD
+></TR
+></TABLE
+></BODY
+></HTML
+>

@@ -1,0 +1,1722 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--Rendered using the Haskell Html Library v0.2-->
+<HTML
+><HEAD
+><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"
+><TITLE
+>HS_CURAND_H_F</TITLE
+><LINK HREF="haddock.css" REL="stylesheet" TYPE="text/css"
+><SCRIPT SRC="haddock-util.js" TYPE="text/javascript"
+></SCRIPT
+><SCRIPT TYPE="text/javascript"
+>window.onload = function () {setSynopsis("mini_HS_CURAND_H_F.html")};</SCRIPT
+></HEAD
+><BODY
+><TABLE CLASS="vanilla" CELLSPACING="0" CELLPADDING="0"
+><TR
+><TD CLASS="topbar"
+><TABLE CLASS="vanilla" CELLSPACING="0" CELLPADDING="0"
+><TR
+><TD
+><IMG SRC="haskell_icon.gif" WIDTH="16" HEIGHT="16" ALT=" "
+></TD
+><TD CLASS="title"
+></TD
+><TD CLASS="topbut"
+><A HREF="index.html"
+>Contents</A
+></TD
+><TD CLASS="topbut"
+><A HREF="doc-index.html"
+>Index</A
+></TD
+></TR
+></TABLE
+></TD
+></TR
+><TR
+><TD CLASS="modulebar"
+><TABLE CLASS="vanilla" CELLSPACING="0" CELLPADDING="0"
+><TR
+><TD
+><FONT SIZE="6"
+>HS_CURAND_H_F</FONT
+></TD
+></TR
+></TABLE
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="section1"
+>Documentation</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaThreadExit"
+><A NAME="v%3Af_cudaThreadExit"
+></A
+></A
+><B
+>f_cudaThreadExit</B
+> :: IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaThreadSynchronize"
+><A NAME="v%3Af_cudaThreadSynchronize"
+></A
+></A
+><B
+>f_cudaThreadSynchronize</B
+> :: IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaThreadSetLimit"
+><A NAME="v%3Af_cudaThreadSetLimit"
+></A
+></A
+><B
+>f_cudaThreadSetLimit</B
+> :: CInt -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaThreadGetLimit"
+><A NAME="v%3Af_cudaThreadGetLimit"
+></A
+></A
+><B
+>f_cudaThreadGetLimit</B
+> :: Ptr CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaThreadGetCacheConfig"
+><A NAME="v%3Af_cudaThreadGetCacheConfig"
+></A
+></A
+><B
+>f_cudaThreadGetCacheConfig</B
+> :: Ptr CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaThreadSetCacheConfig"
+><A NAME="v%3Af_cudaThreadSetCacheConfig"
+></A
+></A
+><B
+>f_cudaThreadSetCacheConfig</B
+> :: CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetLastError"
+><A NAME="v%3Af_cudaGetLastError"
+></A
+></A
+><B
+>f_cudaGetLastError</B
+> :: IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaPeekAtLastError"
+><A NAME="v%3Af_cudaPeekAtLastError"
+></A
+></A
+><B
+>f_cudaPeekAtLastError</B
+> :: IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetErrorString"
+><A NAME="v%3Af_cudaGetErrorString"
+></A
+></A
+><B
+>f_cudaGetErrorString</B
+> :: CInt -&gt; IO (Ptr CChar)</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetDeviceCount"
+><A NAME="v%3Af_cudaGetDeviceCount"
+></A
+></A
+><B
+>f_cudaGetDeviceCount</B
+> :: Ptr CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetDeviceProperties"
+><A NAME="v%3Af_cudaGetDeviceProperties"
+></A
+></A
+><B
+>f_cudaGetDeviceProperties</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaDeviceProp"
+>S_cudaDeviceProp</A
+> -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaChooseDevice"
+><A NAME="v%3Af_cudaChooseDevice"
+></A
+></A
+><B
+>f_cudaChooseDevice</B
+> :: Ptr CInt -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaDeviceProp"
+>S_cudaDeviceProp</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaSetDevice"
+><A NAME="v%3Af_cudaSetDevice"
+></A
+></A
+><B
+>f_cudaSetDevice</B
+> :: CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetDevice"
+><A NAME="v%3Af_cudaGetDevice"
+></A
+></A
+><B
+>f_cudaGetDevice</B
+> :: Ptr CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaSetValidDevices"
+><A NAME="v%3Af_cudaSetValidDevices"
+></A
+></A
+><B
+>f_cudaSetValidDevices</B
+> :: Ptr CInt -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaSetDeviceFlags"
+><A NAME="v%3Af_cudaSetDeviceFlags"
+></A
+></A
+><B
+>f_cudaSetDeviceFlags</B
+> :: CUInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaStreamCreate"
+><A NAME="v%3Af_cudaStreamCreate"
+></A
+></A
+><B
+>f_cudaStreamCreate</B
+> :: Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+>) -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaStreamDestroy"
+><A NAME="v%3Af_cudaStreamDestroy"
+></A
+></A
+><B
+>f_cudaStreamDestroy</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaStreamWaitEvent"
+><A NAME="v%3Af_cudaStreamWaitEvent"
+></A
+></A
+><B
+>f_cudaStreamWaitEvent</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUevent_st"
+>S_CUevent_st</A
+> -&gt; CUInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaStreamSynchronize"
+><A NAME="v%3Af_cudaStreamSynchronize"
+></A
+></A
+><B
+>f_cudaStreamSynchronize</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaStreamQuery"
+><A NAME="v%3Af_cudaStreamQuery"
+></A
+></A
+><B
+>f_cudaStreamQuery</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaEventCreate"
+><A NAME="v%3Af_cudaEventCreate"
+></A
+></A
+><B
+>f_cudaEventCreate</B
+> :: Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUevent_st"
+>S_CUevent_st</A
+>) -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaEventCreateWithFlags"
+><A NAME="v%3Af_cudaEventCreateWithFlags"
+></A
+></A
+><B
+>f_cudaEventCreateWithFlags</B
+> :: Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUevent_st"
+>S_CUevent_st</A
+>) -&gt; CUInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaEventRecord"
+><A NAME="v%3Af_cudaEventRecord"
+></A
+></A
+><B
+>f_cudaEventRecord</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUevent_st"
+>S_CUevent_st</A
+> -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaEventQuery"
+><A NAME="v%3Af_cudaEventQuery"
+></A
+></A
+><B
+>f_cudaEventQuery</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUevent_st"
+>S_CUevent_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaEventSynchronize"
+><A NAME="v%3Af_cudaEventSynchronize"
+></A
+></A
+><B
+>f_cudaEventSynchronize</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUevent_st"
+>S_CUevent_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaEventDestroy"
+><A NAME="v%3Af_cudaEventDestroy"
+></A
+></A
+><B
+>f_cudaEventDestroy</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUevent_st"
+>S_CUevent_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaEventElapsedTime"
+><A NAME="v%3Af_cudaEventElapsedTime"
+></A
+></A
+><B
+>f_cudaEventElapsedTime</B
+> :: Ptr CFloat -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUevent_st"
+>S_CUevent_st</A
+> -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUevent_st"
+>S_CUevent_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaSetupArgument"
+><A NAME="v%3Af_cudaSetupArgument"
+></A
+></A
+><B
+>f_cudaSetupArgument</B
+> :: Ptr CChar -&gt; CSize -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaFuncSetCacheConfig"
+><A NAME="v%3Af_cudaFuncSetCacheConfig"
+></A
+></A
+><B
+>f_cudaFuncSetCacheConfig</B
+> :: Ptr CChar -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaLaunch"
+><A NAME="v%3Af_cudaLaunch"
+></A
+></A
+><B
+>f_cudaLaunch</B
+> :: Ptr CChar -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaFuncGetAttributes"
+><A NAME="v%3Af_cudaFuncGetAttributes"
+></A
+></A
+><B
+>f_cudaFuncGetAttributes</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaFuncAttributes"
+>S_cudaFuncAttributes</A
+> -&gt; Ptr CChar -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaSetDoubleForDevice"
+><A NAME="v%3Af_cudaSetDoubleForDevice"
+></A
+></A
+><B
+>f_cudaSetDoubleForDevice</B
+> :: Ptr CDouble -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaSetDoubleForHost"
+><A NAME="v%3Af_cudaSetDoubleForHost"
+></A
+></A
+><B
+>f_cudaSetDoubleForHost</B
+> :: Ptr CDouble -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMalloc"
+><A NAME="v%3Af_cudaMalloc"
+></A
+></A
+><B
+>f_cudaMalloc</B
+> :: Ptr (Ptr CChar) -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMallocHost"
+><A NAME="v%3Af_cudaMallocHost"
+></A
+></A
+><B
+>f_cudaMallocHost</B
+> :: Ptr (Ptr CChar) -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMallocPitch"
+><A NAME="v%3Af_cudaMallocPitch"
+></A
+></A
+><B
+>f_cudaMallocPitch</B
+> :: Ptr (Ptr CChar) -&gt; Ptr CSize -&gt; CSize -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMallocArray"
+><A NAME="v%3Af_cudaMallocArray"
+></A
+></A
+><B
+>f_cudaMallocArray</B
+> :: Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+>) -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaChannelFormatDesc"
+>S_cudaChannelFormatDesc</A
+> -&gt; CSize -&gt; CSize -&gt; CUInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaFree"
+><A NAME="v%3Af_cudaFree"
+></A
+></A
+><B
+>f_cudaFree</B
+> :: Ptr CChar -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaFreeHost"
+><A NAME="v%3Af_cudaFreeHost"
+></A
+></A
+><B
+>f_cudaFreeHost</B
+> :: Ptr CChar -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaFreeArray"
+><A NAME="v%3Af_cudaFreeArray"
+></A
+></A
+><B
+>f_cudaFreeArray</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaHostAlloc"
+><A NAME="v%3Af_cudaHostAlloc"
+></A
+></A
+><B
+>f_cudaHostAlloc</B
+> :: Ptr (Ptr CChar) -&gt; CSize -&gt; CUInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaHostGetDevicePointer"
+><A NAME="v%3Af_cudaHostGetDevicePointer"
+></A
+></A
+><B
+>f_cudaHostGetDevicePointer</B
+> :: Ptr (Ptr CChar) -&gt; Ptr CChar -&gt; CUInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaHostGetFlags"
+><A NAME="v%3Af_cudaHostGetFlags"
+></A
+></A
+><B
+>f_cudaHostGetFlags</B
+> :: Ptr CUInt -&gt; Ptr CChar -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpy3D"
+><A NAME="v%3Af_cudaMemcpy3D"
+></A
+></A
+><B
+>f_cudaMemcpy3D</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaMemcpy3DParms"
+>S_cudaMemcpy3DParms</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpy3DAsync"
+><A NAME="v%3Af_cudaMemcpy3DAsync"
+></A
+></A
+><B
+>f_cudaMemcpy3DAsync</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaMemcpy3DParms"
+>S_cudaMemcpy3DParms</A
+> -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemGetInfo"
+><A NAME="v%3Af_cudaMemGetInfo"
+></A
+></A
+><B
+>f_cudaMemGetInfo</B
+> :: Ptr CSize -&gt; Ptr CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpy"
+><A NAME="v%3Af_cudaMemcpy"
+></A
+></A
+><B
+>f_cudaMemcpy</B
+> :: Ptr CChar -&gt; Ptr CChar -&gt; CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpyToArray"
+><A NAME="v%3Af_cudaMemcpyToArray"
+></A
+></A
+><B
+>f_cudaMemcpyToArray</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; Ptr CChar -&gt; CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpyFromArray"
+><A NAME="v%3Af_cudaMemcpyFromArray"
+></A
+></A
+><B
+>f_cudaMemcpyFromArray</B
+> :: Ptr CChar -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpyArrayToArray"
+><A NAME="v%3Af_cudaMemcpyArrayToArray"
+></A
+></A
+><B
+>f_cudaMemcpyArrayToArray</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpy2D"
+><A NAME="v%3Af_cudaMemcpy2D"
+></A
+></A
+><B
+>f_cudaMemcpy2D</B
+> :: Ptr CChar -&gt; CSize -&gt; Ptr CChar -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpy2DToArray"
+><A NAME="v%3Af_cudaMemcpy2DToArray"
+></A
+></A
+><B
+>f_cudaMemcpy2DToArray</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; Ptr CChar -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpy2DFromArray"
+><A NAME="v%3Af_cudaMemcpy2DFromArray"
+></A
+></A
+><B
+>f_cudaMemcpy2DFromArray</B
+> :: Ptr CChar -&gt; CSize -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpy2DArrayToArray"
+><A NAME="v%3Af_cudaMemcpy2DArrayToArray"
+></A
+></A
+><B
+>f_cudaMemcpy2DArrayToArray</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpyToSymbol"
+><A NAME="v%3Af_cudaMemcpyToSymbol"
+></A
+></A
+><B
+>f_cudaMemcpyToSymbol</B
+> :: Ptr CChar -&gt; Ptr CChar -&gt; CSize -&gt; CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpyFromSymbol"
+><A NAME="v%3Af_cudaMemcpyFromSymbol"
+></A
+></A
+><B
+>f_cudaMemcpyFromSymbol</B
+> :: Ptr CChar -&gt; Ptr CChar -&gt; CSize -&gt; CSize -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpyAsync"
+><A NAME="v%3Af_cudaMemcpyAsync"
+></A
+></A
+><B
+>f_cudaMemcpyAsync</B
+> :: Ptr CChar -&gt; Ptr CChar -&gt; CSize -&gt; CInt -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpyToArrayAsync"
+><A NAME="v%3Af_cudaMemcpyToArrayAsync"
+></A
+></A
+><B
+>f_cudaMemcpyToArrayAsync</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; Ptr CChar -&gt; CSize -&gt; CInt -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpyFromArrayAsync"
+><A NAME="v%3Af_cudaMemcpyFromArrayAsync"
+></A
+></A
+><B
+>f_cudaMemcpyFromArrayAsync</B
+> :: Ptr CChar -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CInt -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpy2DAsync"
+><A NAME="v%3Af_cudaMemcpy2DAsync"
+></A
+></A
+><B
+>f_cudaMemcpy2DAsync</B
+> :: Ptr CChar -&gt; CSize -&gt; Ptr CChar -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CInt -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpy2DToArrayAsync"
+><A NAME="v%3Af_cudaMemcpy2DToArrayAsync"
+></A
+></A
+><B
+>f_cudaMemcpy2DToArrayAsync</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; Ptr CChar -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CInt -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpy2DFromArrayAsync"
+><A NAME="v%3Af_cudaMemcpy2DFromArrayAsync"
+></A
+></A
+><B
+>f_cudaMemcpy2DFromArrayAsync</B
+> :: Ptr CChar -&gt; CSize -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CSize -&gt; CInt -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpyToSymbolAsync"
+><A NAME="v%3Af_cudaMemcpyToSymbolAsync"
+></A
+></A
+><B
+>f_cudaMemcpyToSymbolAsync</B
+> :: Ptr CChar -&gt; Ptr CChar -&gt; CSize -&gt; CSize -&gt; CInt -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemcpyFromSymbolAsync"
+><A NAME="v%3Af_cudaMemcpyFromSymbolAsync"
+></A
+></A
+><B
+>f_cudaMemcpyFromSymbolAsync</B
+> :: Ptr CChar -&gt; Ptr CChar -&gt; CSize -&gt; CSize -&gt; CInt -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemset"
+><A NAME="v%3Af_cudaMemset"
+></A
+></A
+><B
+>f_cudaMemset</B
+> :: Ptr CChar -&gt; CInt -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemset2D"
+><A NAME="v%3Af_cudaMemset2D"
+></A
+></A
+><B
+>f_cudaMemset2D</B
+> :: Ptr CChar -&gt; CSize -&gt; CInt -&gt; CSize -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemsetAsync"
+><A NAME="v%3Af_cudaMemsetAsync"
+></A
+></A
+><B
+>f_cudaMemsetAsync</B
+> :: Ptr CChar -&gt; CInt -&gt; CSize -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaMemset2DAsync"
+><A NAME="v%3Af_cudaMemset2DAsync"
+></A
+></A
+><B
+>f_cudaMemset2DAsync</B
+> :: Ptr CChar -&gt; CSize -&gt; CInt -&gt; CSize -&gt; CSize -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetSymbolAddress"
+><A NAME="v%3Af_cudaGetSymbolAddress"
+></A
+></A
+><B
+>f_cudaGetSymbolAddress</B
+> :: Ptr (Ptr CChar) -&gt; Ptr CChar -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetSymbolSize"
+><A NAME="v%3Af_cudaGetSymbolSize"
+></A
+></A
+><B
+>f_cudaGetSymbolSize</B
+> :: Ptr CSize -&gt; Ptr CChar -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGraphicsUnregisterResource"
+><A NAME="v%3Af_cudaGraphicsUnregisterResource"
+></A
+></A
+><B
+>f_cudaGraphicsUnregisterResource</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaGraphicsResource"
+>S_cudaGraphicsResource</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGraphicsResourceSetMapFlags"
+><A NAME="v%3Af_cudaGraphicsResourceSetMapFlags"
+></A
+></A
+><B
+>f_cudaGraphicsResourceSetMapFlags</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaGraphicsResource"
+>S_cudaGraphicsResource</A
+> -&gt; CUInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGraphicsMapResources"
+><A NAME="v%3Af_cudaGraphicsMapResources"
+></A
+></A
+><B
+>f_cudaGraphicsMapResources</B
+> :: CInt -&gt; Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaGraphicsResource"
+>S_cudaGraphicsResource</A
+>) -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGraphicsUnmapResources"
+><A NAME="v%3Af_cudaGraphicsUnmapResources"
+></A
+></A
+><B
+>f_cudaGraphicsUnmapResources</B
+> :: CInt -&gt; Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaGraphicsResource"
+>S_cudaGraphicsResource</A
+>) -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGraphicsResourceGetMappedPointer"
+><A NAME="v%3Af_cudaGraphicsResourceGetMappedPointer"
+></A
+></A
+><B
+>f_cudaGraphicsResourceGetMappedPointer</B
+> :: Ptr (Ptr CChar) -&gt; Ptr CSize -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaGraphicsResource"
+>S_cudaGraphicsResource</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGraphicsSubResourceGetMappedArray"
+><A NAME="v%3Af_cudaGraphicsSubResourceGetMappedArray"
+></A
+></A
+><B
+>f_cudaGraphicsSubResourceGetMappedArray</B
+> :: Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+>) -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaGraphicsResource"
+>S_cudaGraphicsResource</A
+> -&gt; CUInt -&gt; CUInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetChannelDesc"
+><A NAME="v%3Af_cudaGetChannelDesc"
+></A
+></A
+><B
+>f_cudaGetChannelDesc</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaChannelFormatDesc"
+>S_cudaChannelFormatDesc</A
+> -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaBindTexture"
+><A NAME="v%3Af_cudaBindTexture"
+></A
+></A
+><B
+>f_cudaBindTexture</B
+> :: Ptr CSize -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_textureReference"
+>S_textureReference</A
+> -&gt; Ptr CChar -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaChannelFormatDesc"
+>S_cudaChannelFormatDesc</A
+> -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaBindTexture2D"
+><A NAME="v%3Af_cudaBindTexture2D"
+></A
+></A
+><B
+>f_cudaBindTexture2D</B
+> :: Ptr CSize -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_textureReference"
+>S_textureReference</A
+> -&gt; Ptr CChar -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaChannelFormatDesc"
+>S_cudaChannelFormatDesc</A
+> -&gt; CSize -&gt; CSize -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaBindTextureToArray"
+><A NAME="v%3Af_cudaBindTextureToArray"
+></A
+></A
+><B
+>f_cudaBindTextureToArray</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_textureReference"
+>S_textureReference</A
+> -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaChannelFormatDesc"
+>S_cudaChannelFormatDesc</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaUnbindTexture"
+><A NAME="v%3Af_cudaUnbindTexture"
+></A
+></A
+><B
+>f_cudaUnbindTexture</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_textureReference"
+>S_textureReference</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetTextureAlignmentOffset"
+><A NAME="v%3Af_cudaGetTextureAlignmentOffset"
+></A
+></A
+><B
+>f_cudaGetTextureAlignmentOffset</B
+> :: Ptr CSize -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_textureReference"
+>S_textureReference</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetTextureReference"
+><A NAME="v%3Af_cudaGetTextureReference"
+></A
+></A
+><B
+>f_cudaGetTextureReference</B
+> :: Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_textureReference"
+>S_textureReference</A
+>) -&gt; Ptr CChar -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaBindSurfaceToArray"
+><A NAME="v%3Af_cudaBindSurfaceToArray"
+></A
+></A
+><B
+>f_cudaBindSurfaceToArray</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_surfaceReference"
+>S_surfaceReference</A
+> -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaArray"
+>S_cudaArray</A
+> -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_cudaChannelFormatDesc"
+>S_cudaChannelFormatDesc</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetSurfaceReference"
+><A NAME="v%3Af_cudaGetSurfaceReference"
+></A
+></A
+><B
+>f_cudaGetSurfaceReference</B
+> :: Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_surfaceReference"
+>S_surfaceReference</A
+>) -&gt; Ptr CChar -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaDriverGetVersion"
+><A NAME="v%3Af_cudaDriverGetVersion"
+></A
+></A
+><B
+>f_cudaDriverGetVersion</B
+> :: Ptr CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaRuntimeGetVersion"
+><A NAME="v%3Af_cudaRuntimeGetVersion"
+></A
+></A
+><B
+>f_cudaRuntimeGetVersion</B
+> :: Ptr CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_cudaGetExportTable"
+><A NAME="v%3Af_cudaGetExportTable"
+></A
+></A
+><B
+>f_cudaGetExportTable</B
+> :: Ptr (Ptr CChar) -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUuuid_st"
+>S_CUuuid_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandCreateGenerator"
+><A NAME="v%3Af_curandCreateGenerator"
+></A
+></A
+><B
+>f_curandCreateGenerator</B
+> :: Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+>) -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandCreateGeneratorHost"
+><A NAME="v%3Af_curandCreateGeneratorHost"
+></A
+></A
+><B
+>f_curandCreateGeneratorHost</B
+> :: Ptr (Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+>) -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandDestroyGenerator"
+><A NAME="v%3Af_curandDestroyGenerator"
+></A
+></A
+><B
+>f_curandDestroyGenerator</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandGetVersion"
+><A NAME="v%3Af_curandGetVersion"
+></A
+></A
+><B
+>f_curandGetVersion</B
+> :: Ptr CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandSetStream"
+><A NAME="v%3Af_curandSetStream"
+></A
+></A
+><B
+>f_curandSetStream</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_CUstream_st"
+>S_CUstream_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandSetPseudoRandomGeneratorSeed"
+><A NAME="v%3Af_curandSetPseudoRandomGeneratorSeed"
+></A
+></A
+><B
+>f_curandSetPseudoRandomGeneratorSeed</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; CULLong -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandSetGeneratorOffset"
+><A NAME="v%3Af_curandSetGeneratorOffset"
+></A
+></A
+><B
+>f_curandSetGeneratorOffset</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; CULLong -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandSetGeneratorOrdering"
+><A NAME="v%3Af_curandSetGeneratorOrdering"
+></A
+></A
+><B
+>f_curandSetGeneratorOrdering</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandSetQuasiRandomGeneratorDimensions"
+><A NAME="v%3Af_curandSetQuasiRandomGeneratorDimensions"
+></A
+></A
+><B
+>f_curandSetQuasiRandomGeneratorDimensions</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; CUInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandGenerate"
+><A NAME="v%3Af_curandGenerate"
+></A
+></A
+><B
+>f_curandGenerate</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; Ptr CUInt -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandGenerateUniform"
+><A NAME="v%3Af_curandGenerateUniform"
+></A
+></A
+><B
+>f_curandGenerateUniform</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; Ptr CFloat -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandGenerateUniformDouble"
+><A NAME="v%3Af_curandGenerateUniformDouble"
+></A
+></A
+><B
+>f_curandGenerateUniformDouble</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; Ptr CDouble -&gt; CSize -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandGenerateNormal"
+><A NAME="v%3Af_curandGenerateNormal"
+></A
+></A
+><B
+>f_curandGenerateNormal</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; Ptr CFloat -&gt; CSize -&gt; CFloat -&gt; CFloat -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandGenerateNormalDouble"
+><A NAME="v%3Af_curandGenerateNormalDouble"
+></A
+></A
+><B
+>f_curandGenerateNormalDouble</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; Ptr CDouble -&gt; CSize -&gt; CDouble -&gt; CDouble -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandGenerateSeeds"
+><A NAME="v%3Af_curandGenerateSeeds"
+></A
+></A
+><B
+>f_curandGenerateSeeds</B
+> :: Ptr <A HREF="HS_CURAND_H_S_n.html#t%3AS_curandGenerator_st"
+>S_curandGenerator_st</A
+> -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="decl"
+><A NAME="v:f_curandGetDirectionVectors32"
+><A NAME="v%3Af_curandGetDirectionVectors32"
+></A
+></A
+><B
+>f_curandGetDirectionVectors32</B
+> :: Ptr (Ptr CUInt) -&gt; CInt -&gt; IO CInt</TD
+></TR
+><TR
+><TD CLASS="s15"
+></TD
+></TR
+><TR
+><TD CLASS="botbar"
+>Produced by <A HREF="http://www.haskell.org/haddock/"
+>Haddock</A
+> version 2.6.1</TD
+></TR
+></TABLE
+></BODY
+></HTML
+>
