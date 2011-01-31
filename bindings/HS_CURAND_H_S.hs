@@ -1,0 +1,138 @@
+
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S (
+  module HS_CURAND_H_S_S_CUevent_st,
+  module HS_CURAND_H_S_S_CUstream_st,
+  module HS_CURAND_H_S_S_CUuuid_st,
+  module HS_CURAND_H_S_S_char1,
+  module HS_CURAND_H_S_S_char2,
+  module HS_CURAND_H_S_S_char3,
+  module HS_CURAND_H_S_S_char4,
+  module HS_CURAND_H_S_S_cudaArray,
+  module HS_CURAND_H_S_S_cudaChannelFormatDesc,
+  module HS_CURAND_H_S_S_cudaDeviceProp,
+  module HS_CURAND_H_S_S_cudaExtent,
+  module HS_CURAND_H_S_S_cudaFuncAttributes,
+  module HS_CURAND_H_S_S_cudaGraphicsResource,
+  module HS_CURAND_H_S_S_cudaMemcpy3DParms,
+  module HS_CURAND_H_S_S_cudaPitchedPtr,
+  module HS_CURAND_H_S_S_cudaPos,
+  module HS_CURAND_H_S_S_curandGenerator_st,
+  module HS_CURAND_H_S_S_dim3,
+  module HS_CURAND_H_S_S_double1,
+  module HS_CURAND_H_S_S_double2,
+  module HS_CURAND_H_S_S_double3,
+  module HS_CURAND_H_S_S_double4,
+  module HS_CURAND_H_S_S_float1,
+  module HS_CURAND_H_S_S_float2,
+  module HS_CURAND_H_S_S_float3,
+  module HS_CURAND_H_S_S_float4,
+  module HS_CURAND_H_S_S_int1,
+  module HS_CURAND_H_S_S_int2,
+  module HS_CURAND_H_S_S_int3,
+  module HS_CURAND_H_S_S_int4,
+  module HS_CURAND_H_S_S_long1,
+  module HS_CURAND_H_S_S_long2,
+  module HS_CURAND_H_S_S_long3,
+  module HS_CURAND_H_S_S_long4,
+  module HS_CURAND_H_S_S_longlong1,
+  module HS_CURAND_H_S_S_longlong2,
+  module HS_CURAND_H_S_S_longlong3,
+  module HS_CURAND_H_S_S_longlong4,
+  module HS_CURAND_H_S_S_short1,
+  module HS_CURAND_H_S_S_short2,
+  module HS_CURAND_H_S_S_short3,
+  module HS_CURAND_H_S_S_short4,
+  module HS_CURAND_H_S_S_surfaceReference,
+  module HS_CURAND_H_S_S_textureReference,
+  module HS_CURAND_H_S_S_uchar1,
+  module HS_CURAND_H_S_S_uchar2,
+  module HS_CURAND_H_S_S_uchar3,
+  module HS_CURAND_H_S_S_uchar4,
+  module HS_CURAND_H_S_S_uint1,
+  module HS_CURAND_H_S_S_uint2,
+  module HS_CURAND_H_S_S_uint3,
+  module HS_CURAND_H_S_S_uint4,
+  module HS_CURAND_H_S_S_ulong1,
+  module HS_CURAND_H_S_S_ulong2,
+  module HS_CURAND_H_S_S_ulong3,
+  module HS_CURAND_H_S_S_ulong4,
+  module HS_CURAND_H_S_S_ulonglong1,
+  module HS_CURAND_H_S_S_ulonglong2,
+  module HS_CURAND_H_S_S_ulonglong3,
+  module HS_CURAND_H_S_S_ulonglong4,
+  module HS_CURAND_H_S_S_ushort1,
+  module HS_CURAND_H_S_S_ushort2,
+  module HS_CURAND_H_S_S_ushort3,
+  module HS_CURAND_H_S_S_ushort4,
+  module HS_CURAND_H_S
+) where
+
+import Foreign
+import Foreign.C.Types
+import HS_CURAND_H_S_S_CUevent_st
+import HS_CURAND_H_S_S_CUstream_st
+import HS_CURAND_H_S_S_CUuuid_st
+import HS_CURAND_H_S_S_char1
+import HS_CURAND_H_S_S_char2
+import HS_CURAND_H_S_S_char3
+import HS_CURAND_H_S_S_char4
+import HS_CURAND_H_S_S_cudaArray
+import HS_CURAND_H_S_S_cudaChannelFormatDesc
+import HS_CURAND_H_S_S_cudaDeviceProp
+import HS_CURAND_H_S_S_cudaExtent
+import HS_CURAND_H_S_S_cudaFuncAttributes
+import HS_CURAND_H_S_S_cudaGraphicsResource
+import HS_CURAND_H_S_S_cudaMemcpy3DParms
+import HS_CURAND_H_S_S_cudaPitchedPtr
+import HS_CURAND_H_S_S_cudaPos
+import HS_CURAND_H_S_S_curandGenerator_st
+import HS_CURAND_H_S_S_dim3
+import HS_CURAND_H_S_S_double1
+import HS_CURAND_H_S_S_double2
+import HS_CURAND_H_S_S_double3
+import HS_CURAND_H_S_S_double4
+import HS_CURAND_H_S_S_float1
+import HS_CURAND_H_S_S_float2
+import HS_CURAND_H_S_S_float3
+import HS_CURAND_H_S_S_float4
+import HS_CURAND_H_S_S_int1
+import HS_CURAND_H_S_S_int2
+import HS_CURAND_H_S_S_int3
+import HS_CURAND_H_S_S_int4
+import HS_CURAND_H_S_S_long1
+import HS_CURAND_H_S_S_long2
+import HS_CURAND_H_S_S_long3
+import HS_CURAND_H_S_S_long4
+import HS_CURAND_H_S_S_longlong1
+import HS_CURAND_H_S_S_longlong2
+import HS_CURAND_H_S_S_longlong3
+import HS_CURAND_H_S_S_longlong4
+import HS_CURAND_H_S_S_short1
+import HS_CURAND_H_S_S_short2
+import HS_CURAND_H_S_S_short3
+import HS_CURAND_H_S_S_short4
+import HS_CURAND_H_S_S_surfaceReference
+import HS_CURAND_H_S_S_textureReference
+import HS_CURAND_H_S_S_uchar1
+import HS_CURAND_H_S_S_uchar2
+import HS_CURAND_H_S_S_uchar3
+import HS_CURAND_H_S_S_uchar4
+import HS_CURAND_H_S_S_uint1
+import HS_CURAND_H_S_S_uint2
+import HS_CURAND_H_S_S_uint3
+import HS_CURAND_H_S_S_uint4
+import HS_CURAND_H_S_S_ulong1
+import HS_CURAND_H_S_S_ulong2
+import HS_CURAND_H_S_S_ulong3
+import HS_CURAND_H_S_S_ulong4
+import HS_CURAND_H_S_S_ulonglong1
+import HS_CURAND_H_S_S_ulonglong2
+import HS_CURAND_H_S_S_ulonglong3
+import HS_CURAND_H_S_S_ulonglong4
+import HS_CURAND_H_S_S_ushort1
+import HS_CURAND_H_S_S_ushort2
+import HS_CURAND_H_S_S_ushort3
+import HS_CURAND_H_S_S_ushort4
+
+

@@ -1,0 +1,4062 @@
+{-# INCLUDE "HS_CURAND_H_hsc.h" #-}
+{-# LINE 1 "HS_CURAND_H.hsc" #-}
+
+{-# LINE 2 "HS_CURAND_H.hsc" #-}
+
+{-# LINE 5 "HS_CURAND_H.hsc" #-}
+
+{-# LINE 6 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 8 "HS_CURAND_H.hsc" #-}
+
+{-# LINE 9 "HS_CURAND_H.hsc" #-}
+
+{-# LINE 10 "HS_CURAND_H.hsc" #-}
+
+{-# LINE 11 "HS_CURAND_H.hsc" #-}
+
+{-# LINE 12 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 16 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 20 "HS_CURAND_H.hsc" #-}
+
+
+
+{-# LINE 26 "HS_CURAND_H.hsc" #-}
+
+{-# LINE 28 "HS_CURAND_H.hsc" #-}
+
+{-# LINE 29 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 35 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 54 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 65 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 68 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 71 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 74 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 77 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 80 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 90 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 112 "HS_CURAND_H.hsc" #-}
+
+
+{-# LINE 114 "HS_CURAND_H.hsc" #-}
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+
+-- Split begin/HS_CURAND_H
+
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+
+{-# LINE 120 "HS_CURAND_H.hsc" #-}
+
+{-# LINE 123 "HS_CURAND_H.hsc" #-}
+
+module HS_CURAND_H(
+  module HS_CURAND_H,
+{-- #SPLIT#
+  module HS_CURAND_H_C,
+  module HS_CURAND_H_S,
+  module HS_CURAND_H_F,
+  module HS_CURAND_H_E,
+  module HS_CURAND_H_S_d,
+  module HS_CURAND_H_S_t,
+  module HS_CURAND_H_S_n,
+#SPLIT# --}
+  module HSFFIG.FieldAccess,
+  module Foreign,
+  module Foreign.C.String,
+  module Foreign.C.Types) where
+
+import Foreign
+import Foreign.Ptr
+import Foreign.C.Types
+import Foreign.C.String
+import HSFFIG.FieldAccess
+{-- #SPLIT#
+import HS_CURAND_H_C
+import HS_CURAND_H_S
+import HS_CURAND_H_F
+import HS_CURAND_H_E
+import HS_CURAND_H_S_d
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HSFFIG.FieldAccess
+#SPLIT# --}
+
+-- Split end
+
+
+-- Split begin/HS_CURAND_H_C_0
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_C_0 (
+  module HS_CURAND_H_C_0
+) where
+
+import Foreign
+import Foreign.C.Types
+#SPLIT# --}
+
+
+-- Split end
+
+
+-- Split begin/HS_CURAND_H_C_1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_C_1 (
+  module HS_CURAND_H_C_1
+) where
+
+import Foreign
+import Foreign.C.Types
+#SPLIT# --}
+
+
+-- Split end
+
+
+-- Split begin/HS_CURAND_H_C_2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_C_2 (
+  module HS_CURAND_H_C_2
+) where
+
+import Foreign
+import Foreign.C.Types
+#SPLIT# --}
+
+
+-- Split end
+
+
+-- Split begin/HS_CURAND_H_C_3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_C_3 (
+  module HS_CURAND_H_C_3
+) where
+
+import Foreign
+import Foreign.C.Types
+#SPLIT# --}
+
+
+-- Split end
+
+
+-- Split begin/HS_CURAND_H_C_4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_C_4 (
+  module HS_CURAND_H_C_4
+) where
+
+import Foreign
+import Foreign.C.Types
+#SPLIT# --}
+
+
+-- Split end
+
+
+-- Split begin/HS_CURAND_H_C_5
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_C_5 (
+  module HS_CURAND_H_C_5
+) where
+
+import Foreign
+import Foreign.C.Types
+#SPLIT# --}
+
+
+-- Split end
+
+
+-- Split begin/HS_CURAND_H_C
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_C (
+  module HS_CURAND_H_C_0,
+  module HS_CURAND_H_C_1,
+  module HS_CURAND_H_C_2,
+  module HS_CURAND_H_C_3,
+  module HS_CURAND_H_C_4,
+  module HS_CURAND_H_C_5,
+  module HS_CURAND_H_C
+) where
+
+import Foreign
+import Foreign.C.Types
+import HS_CURAND_H_C_0
+import HS_CURAND_H_C_1
+import HS_CURAND_H_C_2
+import HS_CURAND_H_C_3
+import HS_CURAND_H_C_4
+import HS_CURAND_H_C_5
+#SPLIT# --}
+
+
+-- Split end
+
+
+-- Split begin/HS_CURAND_H_S
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S (
+  module HS_CURAND_H_S_S_CUevent_st,
+  module HS_CURAND_H_S_S_CUstream_st,
+  module HS_CURAND_H_S_S_CUuuid_st,
+  module HS_CURAND_H_S_S_char1,
+  module HS_CURAND_H_S_S_char2,
+  module HS_CURAND_H_S_S_char3,
+  module HS_CURAND_H_S_S_char4,
+  module HS_CURAND_H_S_S_cudaArray,
+  module HS_CURAND_H_S_S_cudaChannelFormatDesc,
+  module HS_CURAND_H_S_S_cudaDeviceProp,
+  module HS_CURAND_H_S_S_cudaExtent,
+  module HS_CURAND_H_S_S_cudaFuncAttributes,
+  module HS_CURAND_H_S_S_cudaGraphicsResource,
+  module HS_CURAND_H_S_S_cudaMemcpy3DParms,
+  module HS_CURAND_H_S_S_cudaPitchedPtr,
+  module HS_CURAND_H_S_S_cudaPos,
+  module HS_CURAND_H_S_S_curandGenerator_st,
+  module HS_CURAND_H_S_S_dim3,
+  module HS_CURAND_H_S_S_double1,
+  module HS_CURAND_H_S_S_double2,
+  module HS_CURAND_H_S_S_double3,
+  module HS_CURAND_H_S_S_double4,
+  module HS_CURAND_H_S_S_float1,
+  module HS_CURAND_H_S_S_float2,
+  module HS_CURAND_H_S_S_float3,
+  module HS_CURAND_H_S_S_float4,
+  module HS_CURAND_H_S_S_int1,
+  module HS_CURAND_H_S_S_int2,
+  module HS_CURAND_H_S_S_int3,
+  module HS_CURAND_H_S_S_int4,
+  module HS_CURAND_H_S_S_long1,
+  module HS_CURAND_H_S_S_long2,
+  module HS_CURAND_H_S_S_long3,
+  module HS_CURAND_H_S_S_long4,
+  module HS_CURAND_H_S_S_longlong1,
+  module HS_CURAND_H_S_S_longlong2,
+  module HS_CURAND_H_S_S_longlong3,
+  module HS_CURAND_H_S_S_longlong4,
+  module HS_CURAND_H_S_S_short1,
+  module HS_CURAND_H_S_S_short2,
+  module HS_CURAND_H_S_S_short3,
+  module HS_CURAND_H_S_S_short4,
+  module HS_CURAND_H_S_S_surfaceReference,
+  module HS_CURAND_H_S_S_textureReference,
+  module HS_CURAND_H_S_S_uchar1,
+  module HS_CURAND_H_S_S_uchar2,
+  module HS_CURAND_H_S_S_uchar3,
+  module HS_CURAND_H_S_S_uchar4,
+  module HS_CURAND_H_S_S_uint1,
+  module HS_CURAND_H_S_S_uint2,
+  module HS_CURAND_H_S_S_uint3,
+  module HS_CURAND_H_S_S_uint4,
+  module HS_CURAND_H_S_S_ulong1,
+  module HS_CURAND_H_S_S_ulong2,
+  module HS_CURAND_H_S_S_ulong3,
+  module HS_CURAND_H_S_S_ulong4,
+  module HS_CURAND_H_S_S_ulonglong1,
+  module HS_CURAND_H_S_S_ulonglong2,
+  module HS_CURAND_H_S_S_ulonglong3,
+  module HS_CURAND_H_S_S_ulonglong4,
+  module HS_CURAND_H_S_S_ushort1,
+  module HS_CURAND_H_S_S_ushort2,
+  module HS_CURAND_H_S_S_ushort3,
+  module HS_CURAND_H_S_S_ushort4,
+  module HS_CURAND_H_S
+) where
+
+import Foreign
+import Foreign.C.Types
+import HS_CURAND_H_S_S_CUevent_st
+import HS_CURAND_H_S_S_CUstream_st
+import HS_CURAND_H_S_S_CUuuid_st
+import HS_CURAND_H_S_S_char1
+import HS_CURAND_H_S_S_char2
+import HS_CURAND_H_S_S_char3
+import HS_CURAND_H_S_S_char4
+import HS_CURAND_H_S_S_cudaArray
+import HS_CURAND_H_S_S_cudaChannelFormatDesc
+import HS_CURAND_H_S_S_cudaDeviceProp
+import HS_CURAND_H_S_S_cudaExtent
+import HS_CURAND_H_S_S_cudaFuncAttributes
+import HS_CURAND_H_S_S_cudaGraphicsResource
+import HS_CURAND_H_S_S_cudaMemcpy3DParms
+import HS_CURAND_H_S_S_cudaPitchedPtr
+import HS_CURAND_H_S_S_cudaPos
+import HS_CURAND_H_S_S_curandGenerator_st
+import HS_CURAND_H_S_S_dim3
+import HS_CURAND_H_S_S_double1
+import HS_CURAND_H_S_S_double2
+import HS_CURAND_H_S_S_double3
+import HS_CURAND_H_S_S_double4
+import HS_CURAND_H_S_S_float1
+import HS_CURAND_H_S_S_float2
+import HS_CURAND_H_S_S_float3
+import HS_CURAND_H_S_S_float4
+import HS_CURAND_H_S_S_int1
+import HS_CURAND_H_S_S_int2
+import HS_CURAND_H_S_S_int3
+import HS_CURAND_H_S_S_int4
+import HS_CURAND_H_S_S_long1
+import HS_CURAND_H_S_S_long2
+import HS_CURAND_H_S_S_long3
+import HS_CURAND_H_S_S_long4
+import HS_CURAND_H_S_S_longlong1
+import HS_CURAND_H_S_S_longlong2
+import HS_CURAND_H_S_S_longlong3
+import HS_CURAND_H_S_S_longlong4
+import HS_CURAND_H_S_S_short1
+import HS_CURAND_H_S_S_short2
+import HS_CURAND_H_S_S_short3
+import HS_CURAND_H_S_S_short4
+import HS_CURAND_H_S_S_surfaceReference
+import HS_CURAND_H_S_S_textureReference
+import HS_CURAND_H_S_S_uchar1
+import HS_CURAND_H_S_S_uchar2
+import HS_CURAND_H_S_S_uchar3
+import HS_CURAND_H_S_S_uchar4
+import HS_CURAND_H_S_S_uint1
+import HS_CURAND_H_S_S_uint2
+import HS_CURAND_H_S_S_uint3
+import HS_CURAND_H_S_S_uint4
+import HS_CURAND_H_S_S_ulong1
+import HS_CURAND_H_S_S_ulong2
+import HS_CURAND_H_S_S_ulong3
+import HS_CURAND_H_S_S_ulong4
+import HS_CURAND_H_S_S_ulonglong1
+import HS_CURAND_H_S_S_ulonglong2
+import HS_CURAND_H_S_S_ulonglong3
+import HS_CURAND_H_S_S_ulonglong4
+import HS_CURAND_H_S_S_ushort1
+import HS_CURAND_H_S_S_ushort2
+import HS_CURAND_H_S_S_ushort3
+import HS_CURAND_H_S_S_ushort4
+#SPLIT# --}
+
+
+-- Split end
+
+
+-- Split begin/HS_CURAND_H_S_d
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_d (
+  module HS_CURAND_H_S_d
+) where
+
+import Foreign
+import Foreign.C.Types
+#SPLIT# --}
+
+data V_sizeof = V_sizeof
+data X_sizeof = X_sizeof
+data D_sizeof = D_sizeof
+data V_x = V_x
+data X_x = X_x
+data D_x = D_x
+data V_y = V_y
+data X_y = X_y
+data D_y = D_y
+data V_z = V_z
+data X_z = X_z
+data D_z = D_z
+data V_w = V_w
+data X_w = X_w
+data D_w = D_w
+data V_f = V_f
+data X_f = X_f
+data D_f = D_f
+data V_name = V_name
+data X_name = X_name
+data D_name = D_name
+data V_totalGlobalMem = V_totalGlobalMem
+data X_totalGlobalMem = X_totalGlobalMem
+data D_totalGlobalMem = D_totalGlobalMem
+data V_sharedMemPerBlock = V_sharedMemPerBlock
+data X_sharedMemPerBlock = X_sharedMemPerBlock
+data D_sharedMemPerBlock = D_sharedMemPerBlock
+data V_regsPerBlock = V_regsPerBlock
+data X_regsPerBlock = X_regsPerBlock
+data D_regsPerBlock = D_regsPerBlock
+data V_warpSize = V_warpSize
+data X_warpSize = X_warpSize
+data D_warpSize = D_warpSize
+data V_memPitch = V_memPitch
+data X_memPitch = X_memPitch
+data D_memPitch = D_memPitch
+data V_maxThreadsPerBlock = V_maxThreadsPerBlock
+data X_maxThreadsPerBlock = X_maxThreadsPerBlock
+data D_maxThreadsPerBlock = D_maxThreadsPerBlock
+data V_maxThreadsDim = V_maxThreadsDim
+data X_maxThreadsDim = X_maxThreadsDim
+data D_maxThreadsDim = D_maxThreadsDim
+data V_maxGridSize = V_maxGridSize
+data X_maxGridSize = X_maxGridSize
+data D_maxGridSize = D_maxGridSize
+data V_clockRate = V_clockRate
+data X_clockRate = X_clockRate
+data D_clockRate = D_clockRate
+data V_totalConstMem = V_totalConstMem
+data X_totalConstMem = X_totalConstMem
+data D_totalConstMem = D_totalConstMem
+data V_major = V_major
+data X_major = X_major
+data D_major = D_major
+data V_minor = V_minor
+data X_minor = X_minor
+data D_minor = D_minor
+data V_textureAlignment = V_textureAlignment
+data X_textureAlignment = X_textureAlignment
+data D_textureAlignment = D_textureAlignment
+data V_deviceOverlap = V_deviceOverlap
+data X_deviceOverlap = X_deviceOverlap
+data D_deviceOverlap = D_deviceOverlap
+data V_multiProcessorCount = V_multiProcessorCount
+data X_multiProcessorCount = X_multiProcessorCount
+data D_multiProcessorCount = D_multiProcessorCount
+data V_kernelExecTimeoutEnabled = V_kernelExecTimeoutEnabled
+data X_kernelExecTimeoutEnabled = X_kernelExecTimeoutEnabled
+data D_kernelExecTimeoutEnabled = D_kernelExecTimeoutEnabled
+data V_integrated = V_integrated
+data X_integrated = X_integrated
+data D_integrated = D_integrated
+data V_canMapHostMemory = V_canMapHostMemory
+data X_canMapHostMemory = X_canMapHostMemory
+data D_canMapHostMemory = D_canMapHostMemory
+data V_computeMode = V_computeMode
+data X_computeMode = X_computeMode
+data D_computeMode = D_computeMode
+data V_maxTexture1D = V_maxTexture1D
+data X_maxTexture1D = X_maxTexture1D
+data D_maxTexture1D = D_maxTexture1D
+data V_maxTexture2D = V_maxTexture2D
+data X_maxTexture2D = X_maxTexture2D
+data D_maxTexture2D = D_maxTexture2D
+data V_maxTexture3D = V_maxTexture3D
+data X_maxTexture3D = X_maxTexture3D
+data D_maxTexture3D = D_maxTexture3D
+data V_maxTexture2DArray = V_maxTexture2DArray
+data X_maxTexture2DArray = X_maxTexture2DArray
+data D_maxTexture2DArray = D_maxTexture2DArray
+data V_surfaceAlignment = V_surfaceAlignment
+data X_surfaceAlignment = X_surfaceAlignment
+data D_surfaceAlignment = D_surfaceAlignment
+data V_concurrentKernels = V_concurrentKernels
+data X_concurrentKernels = X_concurrentKernels
+data D_concurrentKernels = D_concurrentKernels
+data V_ECCEnabled = V_ECCEnabled
+data X_ECCEnabled = X_ECCEnabled
+data D_ECCEnabled = D_ECCEnabled
+data V_pciBusID = V_pciBusID
+data X_pciBusID = X_pciBusID
+data D_pciBusID = D_pciBusID
+data V_pciDeviceID = V_pciDeviceID
+data X_pciDeviceID = X_pciDeviceID
+data D_pciDeviceID = D_pciDeviceID
+data V_tccDriver = V_tccDriver
+data X_tccDriver = X_tccDriver
+data D_tccDriver = D_tccDriver
+data V___cudaReserved = V___cudaReserved
+data X___cudaReserved = X___cudaReserved
+data D___cudaReserved = D___cudaReserved
+data V_width = V_width
+data X_width = X_width
+data D_width = D_width
+data V_height = V_height
+data X_height = X_height
+data D_height = D_height
+data V_depth = V_depth
+data X_depth = X_depth
+data D_depth = D_depth
+data V_sharedSizeBytes = V_sharedSizeBytes
+data X_sharedSizeBytes = X_sharedSizeBytes
+data D_sharedSizeBytes = D_sharedSizeBytes
+data V_constSizeBytes = V_constSizeBytes
+data X_constSizeBytes = X_constSizeBytes
+data D_constSizeBytes = D_constSizeBytes
+data V_localSizeBytes = V_localSizeBytes
+data X_localSizeBytes = X_localSizeBytes
+data D_localSizeBytes = D_localSizeBytes
+data V_numRegs = V_numRegs
+data X_numRegs = X_numRegs
+data D_numRegs = D_numRegs
+data V_ptxVersion = V_ptxVersion
+data X_ptxVersion = X_ptxVersion
+data D_ptxVersion = D_ptxVersion
+data V_binaryVersion = V_binaryVersion
+data X_binaryVersion = X_binaryVersion
+data D_binaryVersion = D_binaryVersion
+data V_srcArray = V_srcArray
+data X_srcArray = X_srcArray
+data D_srcArray = D_srcArray
+data V_srcPos = V_srcPos
+data X_srcPos = X_srcPos
+data D_srcPos = D_srcPos
+data V_srcPtr = V_srcPtr
+data X_srcPtr = X_srcPtr
+data D_srcPtr = D_srcPtr
+data V_dstArray = V_dstArray
+data X_dstArray = X_dstArray
+data D_dstArray = D_dstArray
+data V_dstPos = V_dstPos
+data X_dstPos = X_dstPos
+data D_dstPos = D_dstPos
+data V_dstPtr = V_dstPtr
+data X_dstPtr = X_dstPtr
+data D_dstPtr = D_dstPtr
+data V_extent = V_extent
+data X_extent = X_extent
+data D_extent = D_extent
+data V_kind = V_kind
+data X_kind = X_kind
+data D_kind = D_kind
+data V_ptr = V_ptr
+data X_ptr = X_ptr
+data D_ptr = D_ptr
+data V_pitch = V_pitch
+data X_pitch = X_pitch
+data D_pitch = D_pitch
+data V_xsize = V_xsize
+data X_xsize = X_xsize
+data D_xsize = D_xsize
+data V_ysize = V_ysize
+data X_ysize = X_ysize
+data D_ysize = D_ysize
+data V_channelDesc = V_channelDesc
+data X_channelDesc = X_channelDesc
+data D_channelDesc = D_channelDesc
+data V_normalized = V_normalized
+data X_normalized = X_normalized
+data D_normalized = D_normalized
+data V_filterMode = V_filterMode
+data X_filterMode = X_filterMode
+data D_filterMode = D_filterMode
+data V_addressMode = V_addressMode
+data X_addressMode = X_addressMode
+data D_addressMode = D_addressMode
+
+-- Split end
+
+
+
+-- Split begin/HS_CURAND_H_S_t
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_t (
+  module HS_CURAND_H_S_t
+) where
+
+import Foreign
+import Foreign.C.Types
+import HS_CURAND_H_S_n
+#SPLIT# --}
+
+type T_char1 = S_char1
+type T_char2 = S_char2
+type T_char3 = S_char3
+type T_char4 = S_char4
+type T_cudaError_t = CInt
+type T_cudaEvent_t = Ptr (S_CUevent_st)
+type T_cudaGraphicsResource_t = Ptr (S_cudaGraphicsResource)
+type T_cudaStream_t = Ptr (S_CUstream_st)
+type T_cudaUUID_t = S_CUuuid_st
+type T_curandDirectionVectorSet_t = CInt
+type T_curandDirectionVectors32_t = CUInt
+type T_curandGenerator_t = Ptr (S_curandGenerator_st)
+type T_curandOrdering_t = CInt
+type T_curandRngType_t = CInt
+type T_curandStatus_t = CInt
+type T_dim3 = S_dim3
+type T_double1 = S_double1
+type T_double2 = S_double2
+type T_double3 = S_double3
+type T_double4 = S_double4
+type T_float1 = S_float1
+type T_float2 = S_float2
+type T_float3 = S_float3
+type T_float4 = S_float4
+type T_int1 = S_int1
+type T_int2 = S_int2
+type T_int3 = S_int3
+type T_int4 = S_int4
+type T_long1 = S_long1
+type T_long2 = S_long2
+type T_long3 = S_long3
+type T_long4 = S_long4
+type T_longlong1 = S_longlong1
+type T_longlong2 = S_longlong2
+type T_longlong3 = S_longlong3
+type T_longlong4 = S_longlong4
+type T_ptrdiff_t = CPtrdiff
+type T_short1 = S_short1
+type T_short2 = S_short2
+type T_short3 = S_short3
+type T_short4 = S_short4
+type T_size_t = CSize
+type T_uchar1 = S_uchar1
+type T_uchar2 = S_uchar2
+type T_uchar3 = S_uchar3
+type T_uchar4 = S_uchar4
+type T_uint1 = S_uint1
+type T_uint2 = S_uint2
+type T_uint3 = S_uint3
+type T_uint4 = S_uint4
+type T_ulong1 = S_ulong1
+type T_ulong2 = S_ulong2
+type T_ulong3 = S_ulong3
+type T_ulong4 = S_ulong4
+type T_ulonglong1 = S_ulonglong1
+type T_ulonglong2 = S_ulonglong2
+type T_ulonglong3 = S_ulonglong3
+type T_ulonglong4 = S_ulonglong4
+type T_ushort1 = S_ushort1
+type T_ushort2 = S_ushort2
+type T_ushort3 = S_ushort3
+type T_ushort4 = S_ushort4
+type T_wchar_t = CWchar
+
+-- Split end
+
+
+
+-- Split begin/HS_CURAND_H_S_n
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_n (
+  module HS_CURAND_H_S_n
+) where
+
+import Foreign
+import Foreign.C.Types
+#SPLIT# --}
+
+newtype S_CUevent_st = S_CUevent_st ()
+newtype S_CUstream_st = S_CUstream_st ()
+newtype S_CUuuid_st = S_CUuuid_st ()
+newtype S_char1 = S_char1 ()
+newtype S_char2 = S_char2 ()
+newtype S_char3 = S_char3 ()
+newtype S_char4 = S_char4 ()
+newtype S_cudaArray = S_cudaArray ()
+newtype S_cudaChannelFormatDesc = S_cudaChannelFormatDesc ()
+newtype S_cudaDeviceProp = S_cudaDeviceProp ()
+newtype S_cudaExtent = S_cudaExtent ()
+newtype S_cudaFuncAttributes = S_cudaFuncAttributes ()
+newtype S_cudaGraphicsResource = S_cudaGraphicsResource ()
+newtype S_cudaMemcpy3DParms = S_cudaMemcpy3DParms ()
+newtype S_cudaPitchedPtr = S_cudaPitchedPtr ()
+newtype S_cudaPos = S_cudaPos ()
+newtype S_curandGenerator_st = S_curandGenerator_st ()
+newtype S_dim3 = S_dim3 ()
+newtype S_double1 = S_double1 ()
+newtype S_double2 = S_double2 ()
+newtype S_double3 = S_double3 ()
+newtype S_double4 = S_double4 ()
+newtype S_float1 = S_float1 ()
+newtype S_float2 = S_float2 ()
+newtype S_float3 = S_float3 ()
+newtype S_float4 = S_float4 ()
+newtype S_int1 = S_int1 ()
+newtype S_int2 = S_int2 ()
+newtype S_int3 = S_int3 ()
+newtype S_int4 = S_int4 ()
+newtype S_long1 = S_long1 ()
+newtype S_long2 = S_long2 ()
+newtype S_long3 = S_long3 ()
+newtype S_long4 = S_long4 ()
+newtype S_longlong1 = S_longlong1 ()
+newtype S_longlong2 = S_longlong2 ()
+newtype S_longlong3 = S_longlong3 ()
+newtype S_longlong4 = S_longlong4 ()
+newtype S_short1 = S_short1 ()
+newtype S_short2 = S_short2 ()
+newtype S_short3 = S_short3 ()
+newtype S_short4 = S_short4 ()
+newtype S_surfaceReference = S_surfaceReference ()
+newtype S_textureReference = S_textureReference ()
+newtype S_uchar1 = S_uchar1 ()
+newtype S_uchar2 = S_uchar2 ()
+newtype S_uchar3 = S_uchar3 ()
+newtype S_uchar4 = S_uchar4 ()
+newtype S_uint1 = S_uint1 ()
+newtype S_uint2 = S_uint2 ()
+newtype S_uint3 = S_uint3 ()
+newtype S_uint4 = S_uint4 ()
+newtype S_ulong1 = S_ulong1 ()
+newtype S_ulong2 = S_ulong2 ()
+newtype S_ulong3 = S_ulong3 ()
+newtype S_ulong4 = S_ulong4 ()
+newtype S_ulonglong1 = S_ulonglong1 ()
+newtype S_ulonglong2 = S_ulonglong2 ()
+newtype S_ulonglong3 = S_ulonglong3 ()
+newtype S_ulonglong4 = S_ulonglong4 ()
+newtype S_ushort1 = S_ushort1 ()
+newtype S_ushort2 = S_ushort2 ()
+newtype S_ushort3 = S_ushort3 ()
+newtype S_ushort4 = S_ushort4 ()
+
+-- Split end
+
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_CUevent_st
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_CUevent_st (
+  module HS_CURAND_H_S_S_CUevent_st
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_CUstream_st
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_CUstream_st (
+  module HS_CURAND_H_S_S_CUstream_st
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_CUuuid_st
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_CUuuid_st (
+  module HS_CURAND_H_S_S_CUuuid_st
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_char1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_char1 (
+  module HS_CURAND_H_S_S_char1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_char1 ((CSChar)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 876 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 877 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_char1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((1))
+{-# LINE 880 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_char1 where
+  sizeOf _ = ((1))
+{-# LINE 883 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct char1"
+  poke _ = error $ "peek and poke cannot be used with struct char1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_char2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_char2 (
+  module HS_CURAND_H_S_S_char2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_char3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_char3 (
+  module HS_CURAND_H_S_S_char3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_char3 ((CSChar)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 931 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 932 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_char3 ((CSChar)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 1)) z
+{-# LINE 935 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 1)) z v
+{-# LINE 936 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_char3 ((CSChar)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 2)) z
+{-# LINE 939 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 2)) z v
+{-# LINE 940 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_char3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((3))
+{-# LINE 943 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_char3 where
+  sizeOf _ = ((3))
+{-# LINE 946 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct char3"
+  poke _ = error $ "peek and poke cannot be used with struct char3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_char4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_char4 (
+  module HS_CURAND_H_S_S_char4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_cudaArray
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_cudaArray (
+  module HS_CURAND_H_S_S_cudaArray
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_cudaChannelFormatDesc
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_cudaChannelFormatDesc (
+  module HS_CURAND_H_S_S_cudaChannelFormatDesc
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaChannelFormatDesc ((CInt)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1015 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1016 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaChannelFormatDesc ((CInt)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 4)) z
+{-# LINE 1019 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 4)) z v
+{-# LINE 1020 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaChannelFormatDesc ((CInt)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 1023 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 1024 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaChannelFormatDesc ((CInt)) V_w where
+  z --> V_w = ((\hsc_ptr -> peekByteOff hsc_ptr 12)) z
+{-# LINE 1027 "HS_CURAND_H.hsc" #-}
+  (z, V_w) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 12)) z v
+{-# LINE 1028 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaChannelFormatDesc ((CInt)) V_f where
+  z --> V_f = ((\hsc_ptr -> peekByteOff hsc_ptr 16)) z
+{-# LINE 1031 "HS_CURAND_H.hsc" #-}
+  (z, V_f) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 16)) z v
+{-# LINE 1032 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaChannelFormatDesc (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((20))
+{-# LINE 1035 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_cudaChannelFormatDesc where
+  sizeOf _ = ((20))
+{-# LINE 1038 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct cudaChannelFormatDesc"
+  poke _ = error $ "peek and poke cannot be used with struct cudaChannelFormatDesc"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_cudaDeviceProp
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_cudaDeviceProp (
+  module HS_CURAND_H_S_S_cudaDeviceProp
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp (Ptr (CChar)) V_name where
+  z --> V_name = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1065 "HS_CURAND_H.hsc" #-}
+  (z, V_name) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1066 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ([Int]) D_name where
+  z --> D_name = return [(256)]
+{-# LINE 1069 "HS_CURAND_H.hsc" #-}
+  (z, D_name) <-- v = error $ "dimensions of a field  cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CSize)) V_totalGlobalMem where
+  z --> V_totalGlobalMem = ((\hsc_ptr -> peekByteOff hsc_ptr 256)) z
+{-# LINE 1073 "HS_CURAND_H.hsc" #-}
+  (z, V_totalGlobalMem) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 256)) z v
+{-# LINE 1074 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CSize)) V_sharedMemPerBlock where
+  z --> V_sharedMemPerBlock = ((\hsc_ptr -> peekByteOff hsc_ptr 264)) z
+{-# LINE 1077 "HS_CURAND_H.hsc" #-}
+  (z, V_sharedMemPerBlock) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 264)) z v
+{-# LINE 1078 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_regsPerBlock where
+  z --> V_regsPerBlock = ((\hsc_ptr -> peekByteOff hsc_ptr 272)) z
+{-# LINE 1081 "HS_CURAND_H.hsc" #-}
+  (z, V_regsPerBlock) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 272)) z v
+{-# LINE 1082 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_warpSize where
+  z --> V_warpSize = ((\hsc_ptr -> peekByteOff hsc_ptr 276)) z
+{-# LINE 1085 "HS_CURAND_H.hsc" #-}
+  (z, V_warpSize) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 276)) z v
+{-# LINE 1086 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CSize)) V_memPitch where
+  z --> V_memPitch = ((\hsc_ptr -> peekByteOff hsc_ptr 280)) z
+{-# LINE 1089 "HS_CURAND_H.hsc" #-}
+  (z, V_memPitch) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 280)) z v
+{-# LINE 1090 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_maxThreadsPerBlock where
+  z --> V_maxThreadsPerBlock = ((\hsc_ptr -> peekByteOff hsc_ptr 288)) z
+{-# LINE 1093 "HS_CURAND_H.hsc" #-}
+  (z, V_maxThreadsPerBlock) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 288)) z v
+{-# LINE 1094 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp (Ptr (CInt)) V_maxThreadsDim where
+  z --> V_maxThreadsDim = ((\hsc_ptr -> peekByteOff hsc_ptr 292)) z
+{-# LINE 1097 "HS_CURAND_H.hsc" #-}
+  (z, V_maxThreadsDim) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 292)) z v
+{-# LINE 1098 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ([Int]) D_maxThreadsDim where
+  z --> D_maxThreadsDim = return [(3)]
+{-# LINE 1101 "HS_CURAND_H.hsc" #-}
+  (z, D_maxThreadsDim) <-- v = error $ "dimensions of a field  cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp (Ptr (CInt)) V_maxGridSize where
+  z --> V_maxGridSize = ((\hsc_ptr -> peekByteOff hsc_ptr 304)) z
+{-# LINE 1105 "HS_CURAND_H.hsc" #-}
+  (z, V_maxGridSize) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 304)) z v
+{-# LINE 1106 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ([Int]) D_maxGridSize where
+  z --> D_maxGridSize = return [(3)]
+{-# LINE 1109 "HS_CURAND_H.hsc" #-}
+  (z, D_maxGridSize) <-- v = error $ "dimensions of a field  cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_clockRate where
+  z --> V_clockRate = ((\hsc_ptr -> peekByteOff hsc_ptr 316)) z
+{-# LINE 1113 "HS_CURAND_H.hsc" #-}
+  (z, V_clockRate) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 316)) z v
+{-# LINE 1114 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CSize)) V_totalConstMem where
+  z --> V_totalConstMem = ((\hsc_ptr -> peekByteOff hsc_ptr 320)) z
+{-# LINE 1117 "HS_CURAND_H.hsc" #-}
+  (z, V_totalConstMem) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 320)) z v
+{-# LINE 1118 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_major where
+  z --> V_major = ((\hsc_ptr -> peekByteOff hsc_ptr 328)) z
+{-# LINE 1121 "HS_CURAND_H.hsc" #-}
+  (z, V_major) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 328)) z v
+{-# LINE 1122 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_minor where
+  z --> V_minor = ((\hsc_ptr -> peekByteOff hsc_ptr 332)) z
+{-# LINE 1125 "HS_CURAND_H.hsc" #-}
+  (z, V_minor) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 332)) z v
+{-# LINE 1126 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CSize)) V_textureAlignment where
+  z --> V_textureAlignment = ((\hsc_ptr -> peekByteOff hsc_ptr 336)) z
+{-# LINE 1129 "HS_CURAND_H.hsc" #-}
+  (z, V_textureAlignment) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 336)) z v
+{-# LINE 1130 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_deviceOverlap where
+  z --> V_deviceOverlap = ((\hsc_ptr -> peekByteOff hsc_ptr 344)) z
+{-# LINE 1133 "HS_CURAND_H.hsc" #-}
+  (z, V_deviceOverlap) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 344)) z v
+{-# LINE 1134 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_multiProcessorCount where
+  z --> V_multiProcessorCount = ((\hsc_ptr -> peekByteOff hsc_ptr 348)) z
+{-# LINE 1137 "HS_CURAND_H.hsc" #-}
+  (z, V_multiProcessorCount) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 348)) z v
+{-# LINE 1138 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_kernelExecTimeoutEnabled where
+  z --> V_kernelExecTimeoutEnabled = ((\hsc_ptr -> peekByteOff hsc_ptr 352)) z
+{-# LINE 1141 "HS_CURAND_H.hsc" #-}
+  (z, V_kernelExecTimeoutEnabled) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 352)) z v
+{-# LINE 1142 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_integrated where
+  z --> V_integrated = ((\hsc_ptr -> peekByteOff hsc_ptr 356)) z
+{-# LINE 1145 "HS_CURAND_H.hsc" #-}
+  (z, V_integrated) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 356)) z v
+{-# LINE 1146 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_canMapHostMemory where
+  z --> V_canMapHostMemory = ((\hsc_ptr -> peekByteOff hsc_ptr 360)) z
+{-# LINE 1149 "HS_CURAND_H.hsc" #-}
+  (z, V_canMapHostMemory) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 360)) z v
+{-# LINE 1150 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_computeMode where
+  z --> V_computeMode = ((\hsc_ptr -> peekByteOff hsc_ptr 364)) z
+{-# LINE 1153 "HS_CURAND_H.hsc" #-}
+  (z, V_computeMode) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 364)) z v
+{-# LINE 1154 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_maxTexture1D where
+  z --> V_maxTexture1D = ((\hsc_ptr -> peekByteOff hsc_ptr 368)) z
+{-# LINE 1157 "HS_CURAND_H.hsc" #-}
+  (z, V_maxTexture1D) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 368)) z v
+{-# LINE 1158 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp (Ptr (CInt)) V_maxTexture2D where
+  z --> V_maxTexture2D = ((\hsc_ptr -> peekByteOff hsc_ptr 372)) z
+{-# LINE 1161 "HS_CURAND_H.hsc" #-}
+  (z, V_maxTexture2D) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 372)) z v
+{-# LINE 1162 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ([Int]) D_maxTexture2D where
+  z --> D_maxTexture2D = return [(2)]
+{-# LINE 1165 "HS_CURAND_H.hsc" #-}
+  (z, D_maxTexture2D) <-- v = error $ "dimensions of a field  cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp (Ptr (CInt)) V_maxTexture3D where
+  z --> V_maxTexture3D = ((\hsc_ptr -> peekByteOff hsc_ptr 380)) z
+{-# LINE 1169 "HS_CURAND_H.hsc" #-}
+  (z, V_maxTexture3D) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 380)) z v
+{-# LINE 1170 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ([Int]) D_maxTexture3D where
+  z --> D_maxTexture3D = return [(3)]
+{-# LINE 1173 "HS_CURAND_H.hsc" #-}
+  (z, D_maxTexture3D) <-- v = error $ "dimensions of a field  cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp (Ptr (CInt)) V_maxTexture2DArray where
+  z --> V_maxTexture2DArray = ((\hsc_ptr -> peekByteOff hsc_ptr 392)) z
+{-# LINE 1177 "HS_CURAND_H.hsc" #-}
+  (z, V_maxTexture2DArray) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 392)) z v
+{-# LINE 1178 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ([Int]) D_maxTexture2DArray where
+  z --> D_maxTexture2DArray = return [(3)]
+{-# LINE 1181 "HS_CURAND_H.hsc" #-}
+  (z, D_maxTexture2DArray) <-- v = error $ "dimensions of a field  cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CSize)) V_surfaceAlignment where
+  z --> V_surfaceAlignment = ((\hsc_ptr -> peekByteOff hsc_ptr 408)) z
+{-# LINE 1185 "HS_CURAND_H.hsc" #-}
+  (z, V_surfaceAlignment) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 408)) z v
+{-# LINE 1186 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_concurrentKernels where
+  z --> V_concurrentKernels = ((\hsc_ptr -> peekByteOff hsc_ptr 416)) z
+{-# LINE 1189 "HS_CURAND_H.hsc" #-}
+  (z, V_concurrentKernels) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 416)) z v
+{-# LINE 1190 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_ECCEnabled where
+  z --> V_ECCEnabled = ((\hsc_ptr -> peekByteOff hsc_ptr 420)) z
+{-# LINE 1193 "HS_CURAND_H.hsc" #-}
+  (z, V_ECCEnabled) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 420)) z v
+{-# LINE 1194 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_pciBusID where
+  z --> V_pciBusID = ((\hsc_ptr -> peekByteOff hsc_ptr 424)) z
+{-# LINE 1197 "HS_CURAND_H.hsc" #-}
+  (z, V_pciBusID) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 424)) z v
+{-# LINE 1198 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_pciDeviceID where
+  z --> V_pciDeviceID = ((\hsc_ptr -> peekByteOff hsc_ptr 428)) z
+{-# LINE 1201 "HS_CURAND_H.hsc" #-}
+  (z, V_pciDeviceID) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 428)) z v
+{-# LINE 1202 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ((CInt)) V_tccDriver where
+  z --> V_tccDriver = ((\hsc_ptr -> peekByteOff hsc_ptr 432)) z
+{-# LINE 1205 "HS_CURAND_H.hsc" #-}
+  (z, V_tccDriver) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 432)) z v
+{-# LINE 1206 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp (Ptr (CInt)) V___cudaReserved where
+  z --> V___cudaReserved = ((\hsc_ptr -> peekByteOff hsc_ptr 436)) z
+{-# LINE 1209 "HS_CURAND_H.hsc" #-}
+  (z, V___cudaReserved) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 436)) z v
+{-# LINE 1210 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp ([Int]) D___cudaReserved where
+  z --> D___cudaReserved = return [(21)]
+{-# LINE 1213 "HS_CURAND_H.hsc" #-}
+  (z, D___cudaReserved) <-- v = error $ "dimensions of a field  cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaDeviceProp (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((520))
+{-# LINE 1217 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_cudaDeviceProp where
+  sizeOf _ = ((520))
+{-# LINE 1220 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct cudaDeviceProp"
+  poke _ = error $ "peek and poke cannot be used with struct cudaDeviceProp"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_cudaExtent
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_cudaExtent (
+  module HS_CURAND_H_S_S_cudaExtent
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaExtent ((CSize)) V_width where
+  z --> V_width = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1247 "HS_CURAND_H.hsc" #-}
+  (z, V_width) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1248 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaExtent ((CSize)) V_height where
+  z --> V_height = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 1251 "HS_CURAND_H.hsc" #-}
+  (z, V_height) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 1252 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaExtent ((CSize)) V_depth where
+  z --> V_depth = ((\hsc_ptr -> peekByteOff hsc_ptr 16)) z
+{-# LINE 1255 "HS_CURAND_H.hsc" #-}
+  (z, V_depth) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 16)) z v
+{-# LINE 1256 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaExtent (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((24))
+{-# LINE 1259 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_cudaExtent where
+  sizeOf _ = ((24))
+{-# LINE 1262 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct cudaExtent"
+  poke _ = error $ "peek and poke cannot be used with struct cudaExtent"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_cudaFuncAttributes
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_cudaFuncAttributes (
+  module HS_CURAND_H_S_S_cudaFuncAttributes
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaFuncAttributes ((CSize)) V_sharedSizeBytes where
+  z --> V_sharedSizeBytes = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1289 "HS_CURAND_H.hsc" #-}
+  (z, V_sharedSizeBytes) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1290 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaFuncAttributes ((CSize)) V_constSizeBytes where
+  z --> V_constSizeBytes = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 1293 "HS_CURAND_H.hsc" #-}
+  (z, V_constSizeBytes) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 1294 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaFuncAttributes ((CSize)) V_localSizeBytes where
+  z --> V_localSizeBytes = ((\hsc_ptr -> peekByteOff hsc_ptr 16)) z
+{-# LINE 1297 "HS_CURAND_H.hsc" #-}
+  (z, V_localSizeBytes) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 16)) z v
+{-# LINE 1298 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaFuncAttributes ((CInt)) V_maxThreadsPerBlock where
+  z --> V_maxThreadsPerBlock = ((\hsc_ptr -> peekByteOff hsc_ptr 24)) z
+{-# LINE 1301 "HS_CURAND_H.hsc" #-}
+  (z, V_maxThreadsPerBlock) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 24)) z v
+{-# LINE 1302 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaFuncAttributes ((CInt)) V_numRegs where
+  z --> V_numRegs = ((\hsc_ptr -> peekByteOff hsc_ptr 28)) z
+{-# LINE 1305 "HS_CURAND_H.hsc" #-}
+  (z, V_numRegs) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 28)) z v
+{-# LINE 1306 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaFuncAttributes ((CInt)) V_ptxVersion where
+  z --> V_ptxVersion = ((\hsc_ptr -> peekByteOff hsc_ptr 32)) z
+{-# LINE 1309 "HS_CURAND_H.hsc" #-}
+  (z, V_ptxVersion) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 32)) z v
+{-# LINE 1310 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaFuncAttributes ((CInt)) V_binaryVersion where
+  z --> V_binaryVersion = ((\hsc_ptr -> peekByteOff hsc_ptr 36)) z
+{-# LINE 1313 "HS_CURAND_H.hsc" #-}
+  (z, V_binaryVersion) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 36)) z v
+{-# LINE 1314 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaFuncAttributes (Ptr (CInt)) V___cudaReserved where
+  z --> V___cudaReserved = ((\hsc_ptr -> peekByteOff hsc_ptr 40)) z
+{-# LINE 1317 "HS_CURAND_H.hsc" #-}
+  (z, V___cudaReserved) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 40)) z v
+{-# LINE 1318 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaFuncAttributes ([Int]) D___cudaReserved where
+  z --> D___cudaReserved = return [(6)]
+{-# LINE 1321 "HS_CURAND_H.hsc" #-}
+  (z, D___cudaReserved) <-- v = error $ "dimensions of a field  cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaFuncAttributes (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((64))
+{-# LINE 1325 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_cudaFuncAttributes where
+  sizeOf _ = ((64))
+{-# LINE 1328 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct cudaFuncAttributes"
+  poke _ = error $ "peek and poke cannot be used with struct cudaFuncAttributes"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_cudaGraphicsResource
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_cudaGraphicsResource (
+  module HS_CURAND_H_S_S_cudaGraphicsResource
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_cudaMemcpy3DParms
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_cudaMemcpy3DParms (
+  module HS_CURAND_H_S_S_cudaMemcpy3DParms
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaMemcpy3DParms ((Ptr (S_cudaArray))) V_srcArray where
+  z --> V_srcArray = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1376 "HS_CURAND_H.hsc" #-}
+  (z, V_srcArray) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1377 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaMemcpy3DParms ((Ptr S_cudaPos)) V_srcPos where
+  z --> V_srcPos = return $ ((\hsc_ptr -> hsc_ptr `plusPtr` 8)) z
+{-# LINE 1380 "HS_CURAND_H.hsc" #-}
+  (z, V_srcPos) <-- v = error $ "field srcPos is a structure or an array: cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaMemcpy3DParms ((Ptr S_cudaPitchedPtr)) V_srcPtr where
+  z --> V_srcPtr = return $ ((\hsc_ptr -> hsc_ptr `plusPtr` 32)) z
+{-# LINE 1384 "HS_CURAND_H.hsc" #-}
+  (z, V_srcPtr) <-- v = error $ "field srcPtr is a structure or an array: cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaMemcpy3DParms ((Ptr (S_cudaArray))) V_dstArray where
+  z --> V_dstArray = ((\hsc_ptr -> peekByteOff hsc_ptr 64)) z
+{-# LINE 1388 "HS_CURAND_H.hsc" #-}
+  (z, V_dstArray) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 64)) z v
+{-# LINE 1389 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaMemcpy3DParms ((Ptr S_cudaPos)) V_dstPos where
+  z --> V_dstPos = return $ ((\hsc_ptr -> hsc_ptr `plusPtr` 72)) z
+{-# LINE 1392 "HS_CURAND_H.hsc" #-}
+  (z, V_dstPos) <-- v = error $ "field dstPos is a structure or an array: cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaMemcpy3DParms ((Ptr S_cudaPitchedPtr)) V_dstPtr where
+  z --> V_dstPtr = return $ ((\hsc_ptr -> hsc_ptr `plusPtr` 96)) z
+{-# LINE 1396 "HS_CURAND_H.hsc" #-}
+  (z, V_dstPtr) <-- v = error $ "field dstPtr is a structure or an array: cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaMemcpy3DParms ((Ptr S_cudaExtent)) V_extent where
+  z --> V_extent = return $ ((\hsc_ptr -> hsc_ptr `plusPtr` 128)) z
+{-# LINE 1400 "HS_CURAND_H.hsc" #-}
+  (z, V_extent) <-- v = error $ "field extent is a structure or an array: cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaMemcpy3DParms ((CInt)) V_kind where
+  z --> V_kind = ((\hsc_ptr -> peekByteOff hsc_ptr 152)) z
+{-# LINE 1404 "HS_CURAND_H.hsc" #-}
+  (z, V_kind) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 152)) z v
+{-# LINE 1405 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaMemcpy3DParms (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((160))
+{-# LINE 1408 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_cudaMemcpy3DParms where
+  sizeOf _ = ((160))
+{-# LINE 1411 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct cudaMemcpy3DParms"
+  poke _ = error $ "peek and poke cannot be used with struct cudaMemcpy3DParms"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_cudaPitchedPtr
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_cudaPitchedPtr (
+  module HS_CURAND_H_S_S_cudaPitchedPtr
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaPitchedPtr ((Ptr (CChar))) V_ptr where
+  z --> V_ptr = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1438 "HS_CURAND_H.hsc" #-}
+  (z, V_ptr) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1439 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaPitchedPtr ((CSize)) V_pitch where
+  z --> V_pitch = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 1442 "HS_CURAND_H.hsc" #-}
+  (z, V_pitch) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 1443 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaPitchedPtr ((CSize)) V_xsize where
+  z --> V_xsize = ((\hsc_ptr -> peekByteOff hsc_ptr 16)) z
+{-# LINE 1446 "HS_CURAND_H.hsc" #-}
+  (z, V_xsize) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 16)) z v
+{-# LINE 1447 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaPitchedPtr ((CSize)) V_ysize where
+  z --> V_ysize = ((\hsc_ptr -> peekByteOff hsc_ptr 24)) z
+{-# LINE 1450 "HS_CURAND_H.hsc" #-}
+  (z, V_ysize) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 24)) z v
+{-# LINE 1451 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaPitchedPtr (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((32))
+{-# LINE 1454 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_cudaPitchedPtr where
+  sizeOf _ = ((32))
+{-# LINE 1457 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct cudaPitchedPtr"
+  poke _ = error $ "peek and poke cannot be used with struct cudaPitchedPtr"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_cudaPos
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_cudaPos (
+  module HS_CURAND_H_S_S_cudaPos
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaPos ((CSize)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1484 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1485 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaPos ((CSize)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 1488 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 1489 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaPos ((CSize)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 16)) z
+{-# LINE 1492 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 16)) z v
+{-# LINE 1493 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_cudaPos (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((24))
+{-# LINE 1496 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_cudaPos where
+  sizeOf _ = ((24))
+{-# LINE 1499 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct cudaPos"
+  poke _ = error $ "peek and poke cannot be used with struct cudaPos"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_curandGenerator_st
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_curandGenerator_st (
+  module HS_CURAND_H_S_S_curandGenerator_st
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_dim3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_dim3 (
+  module HS_CURAND_H_S_S_dim3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_dim3 ((CUInt)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1547 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1548 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_dim3 ((CUInt)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 4)) z
+{-# LINE 1551 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 4)) z v
+{-# LINE 1552 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_dim3 ((CUInt)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 1555 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 1556 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_dim3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((12))
+{-# LINE 1559 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_dim3 where
+  sizeOf _ = ((12))
+{-# LINE 1562 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct dim3"
+  poke _ = error $ "peek and poke cannot be used with struct dim3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_double1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_double1 (
+  module HS_CURAND_H_S_S_double1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_double1 ((CDouble)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1589 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1590 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_double1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((8))
+{-# LINE 1593 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_double1 where
+  sizeOf _ = ((8))
+{-# LINE 1596 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct double1"
+  poke _ = error $ "peek and poke cannot be used with struct double1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_double2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_double2 (
+  module HS_CURAND_H_S_S_double2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_double3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_double3 (
+  module HS_CURAND_H_S_S_double3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_double3 ((CDouble)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1644 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1645 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_double3 ((CDouble)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 1648 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 1649 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_double3 ((CDouble)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 16)) z
+{-# LINE 1652 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 16)) z v
+{-# LINE 1653 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_double3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((24))
+{-# LINE 1656 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_double3 where
+  sizeOf _ = ((24))
+{-# LINE 1659 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct double3"
+  poke _ = error $ "peek and poke cannot be used with struct double3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_double4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_double4 (
+  module HS_CURAND_H_S_S_double4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_float1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_float1 (
+  module HS_CURAND_H_S_S_float1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_float1 ((CFloat)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1707 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1708 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_float1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((4))
+{-# LINE 1711 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_float1 where
+  sizeOf _ = ((4))
+{-# LINE 1714 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct float1"
+  poke _ = error $ "peek and poke cannot be used with struct float1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_float2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_float2 (
+  module HS_CURAND_H_S_S_float2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_float3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_float3 (
+  module HS_CURAND_H_S_S_float3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_float3 ((CFloat)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1762 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1763 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_float3 ((CFloat)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 4)) z
+{-# LINE 1766 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 4)) z v
+{-# LINE 1767 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_float3 ((CFloat)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 1770 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 1771 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_float3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((12))
+{-# LINE 1774 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_float3 where
+  sizeOf _ = ((12))
+{-# LINE 1777 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct float3"
+  poke _ = error $ "peek and poke cannot be used with struct float3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_float4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_float4 (
+  module HS_CURAND_H_S_S_float4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_int1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_int1 (
+  module HS_CURAND_H_S_S_int1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_int1 ((CInt)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1825 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1826 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_int1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((4))
+{-# LINE 1829 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_int1 where
+  sizeOf _ = ((4))
+{-# LINE 1832 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct int1"
+  poke _ = error $ "peek and poke cannot be used with struct int1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_int2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_int2 (
+  module HS_CURAND_H_S_S_int2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_int3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_int3 (
+  module HS_CURAND_H_S_S_int3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_int3 ((CInt)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1880 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1881 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_int3 ((CInt)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 4)) z
+{-# LINE 1884 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 4)) z v
+{-# LINE 1885 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_int3 ((CInt)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 1888 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 1889 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_int3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((12))
+{-# LINE 1892 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_int3 where
+  sizeOf _ = ((12))
+{-# LINE 1895 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct int3"
+  poke _ = error $ "peek and poke cannot be used with struct int3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_int4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_int4 (
+  module HS_CURAND_H_S_S_int4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_long1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_long1 (
+  module HS_CURAND_H_S_S_long1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_long1 ((CLong)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1943 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1944 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_long1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((8))
+{-# LINE 1947 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_long1 where
+  sizeOf _ = ((8))
+{-# LINE 1950 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct long1"
+  poke _ = error $ "peek and poke cannot be used with struct long1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_long2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_long2 (
+  module HS_CURAND_H_S_S_long2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_long3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_long3 (
+  module HS_CURAND_H_S_S_long3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_long3 ((CLong)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 1998 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 1999 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_long3 ((CLong)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 2002 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 2003 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_long3 ((CLong)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 16)) z
+{-# LINE 2006 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 16)) z v
+{-# LINE 2007 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_long3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((24))
+{-# LINE 2010 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_long3 where
+  sizeOf _ = ((24))
+{-# LINE 2013 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct long3"
+  poke _ = error $ "peek and poke cannot be used with struct long3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_long4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_long4 (
+  module HS_CURAND_H_S_S_long4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_longlong1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_longlong1 (
+  module HS_CURAND_H_S_S_longlong1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_longlong1 ((CLLong)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2061 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2062 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_longlong1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((8))
+{-# LINE 2065 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_longlong1 where
+  sizeOf _ = ((8))
+{-# LINE 2068 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct longlong1"
+  poke _ = error $ "peek and poke cannot be used with struct longlong1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_longlong2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_longlong2 (
+  module HS_CURAND_H_S_S_longlong2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_longlong3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_longlong3 (
+  module HS_CURAND_H_S_S_longlong3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_longlong3 ((CLLong)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2116 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2117 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_longlong3 ((CLLong)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 2120 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 2121 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_longlong3 ((CLLong)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 16)) z
+{-# LINE 2124 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 16)) z v
+{-# LINE 2125 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_longlong3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((24))
+{-# LINE 2128 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_longlong3 where
+  sizeOf _ = ((24))
+{-# LINE 2131 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct longlong3"
+  poke _ = error $ "peek and poke cannot be used with struct longlong3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_longlong4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_longlong4 (
+  module HS_CURAND_H_S_S_longlong4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_short1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_short1 (
+  module HS_CURAND_H_S_S_short1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_short1 ((CShort)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2179 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2180 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_short1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((2))
+{-# LINE 2183 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_short1 where
+  sizeOf _ = ((2))
+{-# LINE 2186 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct short1"
+  poke _ = error $ "peek and poke cannot be used with struct short1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_short2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_short2 (
+  module HS_CURAND_H_S_S_short2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_short3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_short3 (
+  module HS_CURAND_H_S_S_short3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_short3 ((CShort)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2234 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2235 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_short3 ((CShort)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 2)) z
+{-# LINE 2238 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 2)) z v
+{-# LINE 2239 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_short3 ((CShort)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 4)) z
+{-# LINE 2242 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 4)) z v
+{-# LINE 2243 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_short3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((6))
+{-# LINE 2246 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_short3 where
+  sizeOf _ = ((6))
+{-# LINE 2249 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct short3"
+  poke _ = error $ "peek and poke cannot be used with struct short3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_short4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_short4 (
+  module HS_CURAND_H_S_S_short4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_surfaceReference
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_surfaceReference (
+  module HS_CURAND_H_S_S_surfaceReference
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_surfaceReference ((Ptr S_cudaChannelFormatDesc)) V_channelDesc where
+  z --> V_channelDesc = return $ ((\hsc_ptr -> hsc_ptr `plusPtr` 0)) z
+{-# LINE 2297 "HS_CURAND_H.hsc" #-}
+  (z, V_channelDesc) <-- v = error $ "field channelDesc is a structure or an array: cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_surfaceReference (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((20))
+{-# LINE 2301 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_surfaceReference where
+  sizeOf _ = ((20))
+{-# LINE 2304 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct surfaceReference"
+  poke _ = error $ "peek and poke cannot be used with struct surfaceReference"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_textureReference
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_textureReference (
+  module HS_CURAND_H_S_S_textureReference
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_textureReference ((CInt)) V_normalized where
+  z --> V_normalized = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2331 "HS_CURAND_H.hsc" #-}
+  (z, V_normalized) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2332 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_textureReference ((CInt)) V_filterMode where
+  z --> V_filterMode = ((\hsc_ptr -> peekByteOff hsc_ptr 4)) z
+{-# LINE 2335 "HS_CURAND_H.hsc" #-}
+  (z, V_filterMode) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 4)) z v
+{-# LINE 2336 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_textureReference (Ptr (CInt)) V_addressMode where
+  z --> V_addressMode = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 2339 "HS_CURAND_H.hsc" #-}
+  (z, V_addressMode) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 2340 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_textureReference ([Int]) D_addressMode where
+  z --> D_addressMode = return [(3)]
+{-# LINE 2343 "HS_CURAND_H.hsc" #-}
+  (z, D_addressMode) <-- v = error $ "dimensions of a field  cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_textureReference ((Ptr S_cudaChannelFormatDesc)) V_channelDesc where
+  z --> V_channelDesc = return $ ((\hsc_ptr -> hsc_ptr `plusPtr` 20)) z
+{-# LINE 2347 "HS_CURAND_H.hsc" #-}
+  (z, V_channelDesc) <-- v = error $ "field channelDesc is a structure or an array: cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_textureReference (Ptr (CInt)) V___cudaReserved where
+  z --> V___cudaReserved = ((\hsc_ptr -> peekByteOff hsc_ptr 40)) z
+{-# LINE 2351 "HS_CURAND_H.hsc" #-}
+  (z, V___cudaReserved) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 40)) z v
+{-# LINE 2352 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_textureReference ([Int]) D___cudaReserved where
+  z --> D___cudaReserved = return [(16)]
+{-# LINE 2355 "HS_CURAND_H.hsc" #-}
+  (z, D___cudaReserved) <-- v = error $ "dimensions of a field  cannot be set"
+
+instance HSFFIG.FieldAccess.FieldAccess S_textureReference (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((104))
+{-# LINE 2359 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_textureReference where
+  sizeOf _ = ((104))
+{-# LINE 2362 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct textureReference"
+  poke _ = error $ "peek and poke cannot be used with struct textureReference"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_uchar1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_uchar1 (
+  module HS_CURAND_H_S_S_uchar1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_uchar1 ((CUChar)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2389 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2390 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_uchar1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((1))
+{-# LINE 2393 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_uchar1 where
+  sizeOf _ = ((1))
+{-# LINE 2396 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct uchar1"
+  poke _ = error $ "peek and poke cannot be used with struct uchar1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_uchar2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_uchar2 (
+  module HS_CURAND_H_S_S_uchar2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_uchar3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_uchar3 (
+  module HS_CURAND_H_S_S_uchar3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_uchar3 ((CUChar)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2444 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2445 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_uchar3 ((CUChar)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 1)) z
+{-# LINE 2448 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 1)) z v
+{-# LINE 2449 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_uchar3 ((CUChar)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 2)) z
+{-# LINE 2452 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 2)) z v
+{-# LINE 2453 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_uchar3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((3))
+{-# LINE 2456 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_uchar3 where
+  sizeOf _ = ((3))
+{-# LINE 2459 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct uchar3"
+  poke _ = error $ "peek and poke cannot be used with struct uchar3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_uchar4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_uchar4 (
+  module HS_CURAND_H_S_S_uchar4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_uint1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_uint1 (
+  module HS_CURAND_H_S_S_uint1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_uint1 ((CUInt)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2507 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2508 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_uint1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((4))
+{-# LINE 2511 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_uint1 where
+  sizeOf _ = ((4))
+{-# LINE 2514 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct uint1"
+  poke _ = error $ "peek and poke cannot be used with struct uint1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_uint2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_uint2 (
+  module HS_CURAND_H_S_S_uint2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_uint3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_uint3 (
+  module HS_CURAND_H_S_S_uint3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_uint3 ((CUInt)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2562 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2563 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_uint3 ((CUInt)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 4)) z
+{-# LINE 2566 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 4)) z v
+{-# LINE 2567 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_uint3 ((CUInt)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 2570 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 2571 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_uint3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((12))
+{-# LINE 2574 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_uint3 where
+  sizeOf _ = ((12))
+{-# LINE 2577 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct uint3"
+  poke _ = error $ "peek and poke cannot be used with struct uint3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_uint4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_uint4 (
+  module HS_CURAND_H_S_S_uint4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ulong1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ulong1 (
+  module HS_CURAND_H_S_S_ulong1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulong1 ((CULong)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2625 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2626 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulong1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((8))
+{-# LINE 2629 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_ulong1 where
+  sizeOf _ = ((8))
+{-# LINE 2632 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct ulong1"
+  poke _ = error $ "peek and poke cannot be used with struct ulong1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ulong2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ulong2 (
+  module HS_CURAND_H_S_S_ulong2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ulong3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ulong3 (
+  module HS_CURAND_H_S_S_ulong3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulong3 ((CULong)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2680 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2681 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulong3 ((CULong)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 2684 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 2685 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulong3 ((CULong)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 16)) z
+{-# LINE 2688 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 16)) z v
+{-# LINE 2689 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulong3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((24))
+{-# LINE 2692 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_ulong3 where
+  sizeOf _ = ((24))
+{-# LINE 2695 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct ulong3"
+  poke _ = error $ "peek and poke cannot be used with struct ulong3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ulong4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ulong4 (
+  module HS_CURAND_H_S_S_ulong4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ulonglong1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ulonglong1 (
+  module HS_CURAND_H_S_S_ulonglong1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulonglong1 ((CULLong)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2743 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2744 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulonglong1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((8))
+{-# LINE 2747 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_ulonglong1 where
+  sizeOf _ = ((8))
+{-# LINE 2750 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct ulonglong1"
+  poke _ = error $ "peek and poke cannot be used with struct ulonglong1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ulonglong2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ulonglong2 (
+  module HS_CURAND_H_S_S_ulonglong2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ulonglong3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ulonglong3 (
+  module HS_CURAND_H_S_S_ulonglong3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulonglong3 ((CULLong)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2798 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2799 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulonglong3 ((CULLong)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 8)) z
+{-# LINE 2802 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 8)) z v
+{-# LINE 2803 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulonglong3 ((CULLong)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 16)) z
+{-# LINE 2806 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 16)) z v
+{-# LINE 2807 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ulonglong3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((24))
+{-# LINE 2810 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_ulonglong3 where
+  sizeOf _ = ((24))
+{-# LINE 2813 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct ulonglong3"
+  poke _ = error $ "peek and poke cannot be used with struct ulonglong3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ulonglong4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ulonglong4 (
+  module HS_CURAND_H_S_S_ulonglong4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ushort1
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ushort1 (
+  module HS_CURAND_H_S_S_ushort1
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_ushort1 ((CUShort)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2861 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2862 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ushort1 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((2))
+{-# LINE 2865 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_ushort1 where
+  sizeOf _ = ((2))
+{-# LINE 2868 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct ushort1"
+  poke _ = error $ "peek and poke cannot be used with struct ushort1"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ushort2
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ushort2 (
+  module HS_CURAND_H_S_S_ushort2
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ushort3
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ushort3 (
+  module HS_CURAND_H_S_S_ushort3
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+
+instance HSFFIG.FieldAccess.FieldAccess S_ushort3 ((CUShort)) V_x where
+  z --> V_x = ((\hsc_ptr -> peekByteOff hsc_ptr 0)) z
+{-# LINE 2916 "HS_CURAND_H.hsc" #-}
+  (z, V_x) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 0)) z v
+{-# LINE 2917 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ushort3 ((CUShort)) V_y where
+  z --> V_y = ((\hsc_ptr -> peekByteOff hsc_ptr 2)) z
+{-# LINE 2920 "HS_CURAND_H.hsc" #-}
+  (z, V_y) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 2)) z v
+{-# LINE 2921 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ushort3 ((CUShort)) V_z where
+  z --> V_z = ((\hsc_ptr -> peekByteOff hsc_ptr 4)) z
+{-# LINE 2924 "HS_CURAND_H.hsc" #-}
+  (z, V_z) <-- v = ((\hsc_ptr -> pokeByteOff hsc_ptr 4)) z v
+{-# LINE 2925 "HS_CURAND_H.hsc" #-}
+
+instance HSFFIG.FieldAccess.FieldAccess S_ushort3 (CInt) V_sizeof where
+  z --> V_sizeof = return $ ((6))
+{-# LINE 2928 "HS_CURAND_H.hsc" #-}
+
+instance Storable S_ushort3 where
+  sizeOf _ = ((6))
+{-# LINE 2931 "HS_CURAND_H.hsc" #-}
+  alignment _ = 1
+  peek _ = error $ "peek and poke cannot be used with struct ushort3"
+  poke _ = error $ "peek and poke cannot be used with struct ushort3"
+-- Split end
+
+--
+
+
+-- Split begin/HS_CURAND_H_S_S_ushort4
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_S_S_ushort4 (
+  module HS_CURAND_H_S_S_ushort4
+) where
+
+import Foreign
+import Foreign.C.Types
+import HSFFIG.FieldAccess
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+import HS_CURAND_H_S_d
+#SPLIT# --}
+
+-- Split end
+
+-- Split begin/HS_CURAND_H_E
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_E (
+  module HS_CURAND_H_E
+) where
+
+import Foreign
+import Foreign.C.Types
+#SPLIT# --}
+
+e_cudaChannelFormatKindSigned = 0
+{-# LINE 2970 "HS_CURAND_H.hsc" #-}
+e_cudaChannelFormatKindUnsigned = 1
+{-# LINE 2971 "HS_CURAND_H.hsc" #-}
+e_cudaChannelFormatKindFloat = 2
+{-# LINE 2972 "HS_CURAND_H.hsc" #-}
+e_cudaChannelFormatKindNone = 3
+{-# LINE 2973 "HS_CURAND_H.hsc" #-}
+e_cudaComputeModeDefault = 0
+{-# LINE 2974 "HS_CURAND_H.hsc" #-}
+e_cudaComputeModeExclusive = 1
+{-# LINE 2975 "HS_CURAND_H.hsc" #-}
+e_cudaComputeModeProhibited = 2
+{-# LINE 2976 "HS_CURAND_H.hsc" #-}
+e_cudaSuccess = 0
+{-# LINE 2977 "HS_CURAND_H.hsc" #-}
+e_cudaErrorMissingConfiguration = 1
+{-# LINE 2978 "HS_CURAND_H.hsc" #-}
+e_cudaErrorMemoryAllocation = 2
+{-# LINE 2979 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInitializationError = 3
+{-# LINE 2980 "HS_CURAND_H.hsc" #-}
+e_cudaErrorLaunchFailure = 4
+{-# LINE 2981 "HS_CURAND_H.hsc" #-}
+e_cudaErrorPriorLaunchFailure = 5
+{-# LINE 2982 "HS_CURAND_H.hsc" #-}
+e_cudaErrorLaunchTimeout = 6
+{-# LINE 2983 "HS_CURAND_H.hsc" #-}
+e_cudaErrorLaunchOutOfResources = 7
+{-# LINE 2984 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidDeviceFunction = 8
+{-# LINE 2985 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidConfiguration = 9
+{-# LINE 2986 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidDevice = 10
+{-# LINE 2987 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidValue = 11
+{-# LINE 2988 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidPitchValue = 12
+{-# LINE 2989 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidSymbol = 13
+{-# LINE 2990 "HS_CURAND_H.hsc" #-}
+e_cudaErrorMapBufferObjectFailed = 14
+{-# LINE 2991 "HS_CURAND_H.hsc" #-}
+e_cudaErrorUnmapBufferObjectFailed = 15
+{-# LINE 2992 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidHostPointer = 16
+{-# LINE 2993 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidDevicePointer = 17
+{-# LINE 2994 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidTexture = 18
+{-# LINE 2995 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidTextureBinding = 19
+{-# LINE 2996 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidChannelDescriptor = 20
+{-# LINE 2997 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidMemcpyDirection = 21
+{-# LINE 2998 "HS_CURAND_H.hsc" #-}
+e_cudaErrorAddressOfConstant = 22
+{-# LINE 2999 "HS_CURAND_H.hsc" #-}
+e_cudaErrorTextureFetchFailed = 23
+{-# LINE 3000 "HS_CURAND_H.hsc" #-}
+e_cudaErrorTextureNotBound = 24
+{-# LINE 3001 "HS_CURAND_H.hsc" #-}
+e_cudaErrorSynchronizationError = 25
+{-# LINE 3002 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidFilterSetting = 26
+{-# LINE 3003 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidNormSetting = 27
+{-# LINE 3004 "HS_CURAND_H.hsc" #-}
+e_cudaErrorMixedDeviceExecution = 28
+{-# LINE 3005 "HS_CURAND_H.hsc" #-}
+e_cudaErrorCudartUnloading = 29
+{-# LINE 3006 "HS_CURAND_H.hsc" #-}
+e_cudaErrorUnknown = 30
+{-# LINE 3007 "HS_CURAND_H.hsc" #-}
+e_cudaErrorNotYetImplemented = 31
+{-# LINE 3008 "HS_CURAND_H.hsc" #-}
+e_cudaErrorMemoryValueTooLarge = 32
+{-# LINE 3009 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidResourceHandle = 33
+{-# LINE 3010 "HS_CURAND_H.hsc" #-}
+e_cudaErrorNotReady = 34
+{-# LINE 3011 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInsufficientDriver = 35
+{-# LINE 3012 "HS_CURAND_H.hsc" #-}
+e_cudaErrorSetOnActiveProcess = 36
+{-# LINE 3013 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidSurface = 37
+{-# LINE 3014 "HS_CURAND_H.hsc" #-}
+e_cudaErrorNoDevice = 38
+{-# LINE 3015 "HS_CURAND_H.hsc" #-}
+e_cudaErrorECCUncorrectable = 39
+{-# LINE 3016 "HS_CURAND_H.hsc" #-}
+e_cudaErrorSharedObjectSymbolNotFound = 40
+{-# LINE 3017 "HS_CURAND_H.hsc" #-}
+e_cudaErrorSharedObjectInitFailed = 41
+{-# LINE 3018 "HS_CURAND_H.hsc" #-}
+e_cudaErrorUnsupportedLimit = 42
+{-# LINE 3019 "HS_CURAND_H.hsc" #-}
+e_cudaErrorDuplicateVariableName = 43
+{-# LINE 3020 "HS_CURAND_H.hsc" #-}
+e_cudaErrorDuplicateTextureName = 44
+{-# LINE 3021 "HS_CURAND_H.hsc" #-}
+e_cudaErrorDuplicateSurfaceName = 45
+{-# LINE 3022 "HS_CURAND_H.hsc" #-}
+e_cudaErrorDevicesUnavailable = 46
+{-# LINE 3023 "HS_CURAND_H.hsc" #-}
+e_cudaErrorInvalidKernelImage = 47
+{-# LINE 3024 "HS_CURAND_H.hsc" #-}
+e_cudaErrorNoKernelImageForDevice = 48
+{-# LINE 3025 "HS_CURAND_H.hsc" #-}
+e_cudaErrorIncompatibleDriverContext = 49
+{-# LINE 3026 "HS_CURAND_H.hsc" #-}
+e_cudaErrorStartupFailure = 127
+{-# LINE 3027 "HS_CURAND_H.hsc" #-}
+e_cudaErrorApiFailureBase = 10000
+{-# LINE 3028 "HS_CURAND_H.hsc" #-}
+e_cudaFuncCachePreferNone = 0
+{-# LINE 3029 "HS_CURAND_H.hsc" #-}
+e_cudaFuncCachePreferShared = 1
+{-# LINE 3030 "HS_CURAND_H.hsc" #-}
+e_cudaFuncCachePreferL1 = 2
+{-# LINE 3031 "HS_CURAND_H.hsc" #-}
+e_cudaGraphicsCubeFacePositiveX = 0
+{-# LINE 3032 "HS_CURAND_H.hsc" #-}
+e_cudaGraphicsCubeFaceNegativeX = 1
+{-# LINE 3033 "HS_CURAND_H.hsc" #-}
+e_cudaGraphicsCubeFacePositiveY = 2
+{-# LINE 3034 "HS_CURAND_H.hsc" #-}
+e_cudaGraphicsCubeFaceNegativeY = 3
+{-# LINE 3035 "HS_CURAND_H.hsc" #-}
+e_cudaGraphicsCubeFacePositiveZ = 4
+{-# LINE 3036 "HS_CURAND_H.hsc" #-}
+e_cudaGraphicsCubeFaceNegativeZ = 5
+{-# LINE 3037 "HS_CURAND_H.hsc" #-}
+e_cudaGraphicsMapFlagsNone = 0
+{-# LINE 3038 "HS_CURAND_H.hsc" #-}
+e_cudaGraphicsMapFlagsReadOnly = 1
+{-# LINE 3039 "HS_CURAND_H.hsc" #-}
+e_cudaGraphicsMapFlagsWriteDiscard = 2
+{-# LINE 3040 "HS_CURAND_H.hsc" #-}
+e_cudaGraphicsRegisterFlagsNone = 0
+{-# LINE 3041 "HS_CURAND_H.hsc" #-}
+e_cudaLimitStackSize = 0
+{-# LINE 3042 "HS_CURAND_H.hsc" #-}
+e_cudaLimitPrintfFifoSize = 1
+{-# LINE 3043 "HS_CURAND_H.hsc" #-}
+e_cudaLimitMallocHeapSize = 2
+{-# LINE 3044 "HS_CURAND_H.hsc" #-}
+e_cudaMemcpyHostToHost = 0
+{-# LINE 3045 "HS_CURAND_H.hsc" #-}
+e_cudaMemcpyHostToDevice = 1
+{-# LINE 3046 "HS_CURAND_H.hsc" #-}
+e_cudaMemcpyDeviceToHost = 2
+{-# LINE 3047 "HS_CURAND_H.hsc" #-}
+e_cudaMemcpyDeviceToDevice = 3
+{-# LINE 3048 "HS_CURAND_H.hsc" #-}
+e_cudaRoundNearest = 0
+{-# LINE 3049 "HS_CURAND_H.hsc" #-}
+e_cudaRoundZero = 1
+{-# LINE 3050 "HS_CURAND_H.hsc" #-}
+e_cudaRoundPosInf = 2
+{-# LINE 3051 "HS_CURAND_H.hsc" #-}
+e_cudaRoundMinInf = 3
+{-# LINE 3052 "HS_CURAND_H.hsc" #-}
+e_cudaBoundaryModeZero = 0
+{-# LINE 3053 "HS_CURAND_H.hsc" #-}
+e_cudaBoundaryModeClamp = 1
+{-# LINE 3054 "HS_CURAND_H.hsc" #-}
+e_cudaBoundaryModeTrap = 2
+{-# LINE 3055 "HS_CURAND_H.hsc" #-}
+e_cudaFormatModeForced = 0
+{-# LINE 3056 "HS_CURAND_H.hsc" #-}
+e_cudaFormatModeAuto = 1
+{-# LINE 3057 "HS_CURAND_H.hsc" #-}
+e_cudaAddressModeWrap = 0
+{-# LINE 3058 "HS_CURAND_H.hsc" #-}
+e_cudaAddressModeClamp = 1
+{-# LINE 3059 "HS_CURAND_H.hsc" #-}
+e_cudaAddressModeMirror = 2
+{-# LINE 3060 "HS_CURAND_H.hsc" #-}
+e_cudaAddressModeBorder = 3
+{-# LINE 3061 "HS_CURAND_H.hsc" #-}
+e_cudaFilterModePoint = 0
+{-# LINE 3062 "HS_CURAND_H.hsc" #-}
+e_cudaFilterModeLinear = 1
+{-# LINE 3063 "HS_CURAND_H.hsc" #-}
+e_cudaReadModeElementType = 0
+{-# LINE 3064 "HS_CURAND_H.hsc" #-}
+e_cudaReadModeNormalizedFloat = 1
+{-# LINE 3065 "HS_CURAND_H.hsc" #-}
+e_CURAND_DIRECTION_VECTORS_32_JOEKUO6 = 101
+{-# LINE 3066 "HS_CURAND_H.hsc" #-}
+e_CURAND_ORDERING_PSEUDO_BEST = 100
+{-# LINE 3067 "HS_CURAND_H.hsc" #-}
+e_CURAND_ORDERING_PSEUDO_DEFAULT = 101
+{-# LINE 3068 "HS_CURAND_H.hsc" #-}
+e_CURAND_ORDERING_QUASI_DEFAULT = 201
+{-# LINE 3069 "HS_CURAND_H.hsc" #-}
+e_CURAND_RNG_PSEUDO_DEFAULT = 100
+{-# LINE 3070 "HS_CURAND_H.hsc" #-}
+e_CURAND_RNG_PSEUDO_XORWOW = 101
+{-# LINE 3071 "HS_CURAND_H.hsc" #-}
+e_CURAND_RNG_QUASI_DEFAULT = 200
+{-# LINE 3072 "HS_CURAND_H.hsc" #-}
+e_CURAND_RNG_QUASI_SOBOL32 = 201
+{-# LINE 3073 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_SUCCESS = 0
+{-# LINE 3074 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_VERSION_MISMATCH = 100
+{-# LINE 3075 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_NOT_INITIALIZED = 101
+{-# LINE 3076 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_ALLOCATION_FAILED = 102
+{-# LINE 3077 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_TYPE_ERROR = 103
+{-# LINE 3078 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_OUT_OF_RANGE = 104
+{-# LINE 3079 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_LENGTH_NOT_MULTIPLE = 105
+{-# LINE 3080 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_LAUNCH_FAILURE = 201
+{-# LINE 3081 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_PREEXISTING_FAILURE = 202
+{-# LINE 3082 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_INITIALIZATION_FAILED = 203
+{-# LINE 3083 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_ARCH_MISMATCH = 204
+{-# LINE 3084 "HS_CURAND_H.hsc" #-}
+e_CURAND_STATUS_INTERNAL_ERROR = 999
+{-# LINE 3085 "HS_CURAND_H.hsc" #-}
+
+-- Split end
+
+
+{-# LINE 3089 "HS_CURAND_H.hsc" #-}
+
+-- Split begin/HS_CURAND_H_F
+
+{-- #SPLIT#
+{-# OPTIONS -fglasgow-exts -XForeignFunctionInterface #-}
+module HS_CURAND_H_F (
+  module HS_CURAND_H_F
+) where
+
+import Foreign
+import Foreign.C.Types
+import HS_CURAND_H_S
+import HS_CURAND_H_C
+import HS_CURAND_H_E
+import HS_CURAND_H_S_d
+import HS_CURAND_H_S_t
+import HS_CURAND_H_S_n
+#SPLIT# --}
+
+foreign import ccall "static hs_curand.h cudaThreadExit"
+  f_cudaThreadExit :: IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaThreadSynchronize"
+  f_cudaThreadSynchronize :: IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaThreadSetLimit"
+  f_cudaThreadSetLimit :: CInt -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaThreadGetLimit"
+  f_cudaThreadGetLimit :: Ptr (CSize) -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaThreadGetCacheConfig"
+  f_cudaThreadGetCacheConfig :: Ptr (CInt) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaThreadSetCacheConfig"
+  f_cudaThreadSetCacheConfig :: CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetLastError"
+  f_cudaGetLastError :: IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaPeekAtLastError"
+  f_cudaPeekAtLastError :: IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetErrorString"
+  f_cudaGetErrorString :: CInt -> IO (Ptr (CChar))
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetDeviceCount"
+  f_cudaGetDeviceCount :: Ptr (CInt) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetDeviceProperties"
+  f_cudaGetDeviceProperties :: Ptr (S_cudaDeviceProp) -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaChooseDevice"
+  f_cudaChooseDevice :: Ptr (CInt) -> Ptr (S_cudaDeviceProp) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaSetDevice"
+  f_cudaSetDevice :: CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetDevice"
+  f_cudaGetDevice :: Ptr (CInt) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaSetValidDevices"
+  f_cudaSetValidDevices :: Ptr (CInt) -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaSetDeviceFlags"
+  f_cudaSetDeviceFlags :: CUInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaStreamCreate"
+  f_cudaStreamCreate :: Ptr (Ptr (S_CUstream_st)) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaStreamDestroy"
+  f_cudaStreamDestroy :: Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaStreamWaitEvent"
+  f_cudaStreamWaitEvent :: Ptr (S_CUstream_st) -> Ptr (S_CUevent_st) -> CUInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaStreamSynchronize"
+  f_cudaStreamSynchronize :: Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaStreamQuery"
+  f_cudaStreamQuery :: Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaEventCreate"
+  f_cudaEventCreate :: Ptr (Ptr (S_CUevent_st)) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaEventCreateWithFlags"
+  f_cudaEventCreateWithFlags :: Ptr (Ptr (S_CUevent_st)) -> CUInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaEventRecord"
+  f_cudaEventRecord :: Ptr (S_CUevent_st) -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaEventQuery"
+  f_cudaEventQuery :: Ptr (S_CUevent_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaEventSynchronize"
+  f_cudaEventSynchronize :: Ptr (S_CUevent_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaEventDestroy"
+  f_cudaEventDestroy :: Ptr (S_CUevent_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaEventElapsedTime"
+  f_cudaEventElapsedTime :: Ptr (CFloat) -> Ptr (S_CUevent_st) -> Ptr (S_CUevent_st) -> IO (CInt)
+
+--
+
+--
+-- import of function/variable/structure member(s) cudaConfigureCall :: @S_dim3 -> @S_dim3 -> CSize -> Ptr (S_CUstream_st) -> CInt is not possible
+-- because of the following reason(s):
+-- function takes/returns structure(s) directly
+--
+
+--
+
+foreign import ccall "static hs_curand.h cudaSetupArgument"
+  f_cudaSetupArgument :: Ptr (CChar) -> CSize -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaFuncSetCacheConfig"
+  f_cudaFuncSetCacheConfig :: Ptr (CChar) -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaLaunch"
+  f_cudaLaunch :: Ptr (CChar) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaFuncGetAttributes"
+  f_cudaFuncGetAttributes :: Ptr (S_cudaFuncAttributes) -> Ptr (CChar) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaSetDoubleForDevice"
+  f_cudaSetDoubleForDevice :: Ptr (CDouble) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaSetDoubleForHost"
+  f_cudaSetDoubleForHost :: Ptr (CDouble) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMalloc"
+  f_cudaMalloc :: Ptr (Ptr (CChar)) -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMallocHost"
+  f_cudaMallocHost :: Ptr (Ptr (CChar)) -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMallocPitch"
+  f_cudaMallocPitch :: Ptr (Ptr (CChar)) -> Ptr (CSize) -> CSize -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMallocArray"
+  f_cudaMallocArray :: Ptr (Ptr (S_cudaArray)) -> Ptr (S_cudaChannelFormatDesc) -> CSize -> CSize -> CUInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaFree"
+  f_cudaFree :: Ptr (CChar) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaFreeHost"
+  f_cudaFreeHost :: Ptr (CChar) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaFreeArray"
+  f_cudaFreeArray :: Ptr (S_cudaArray) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaHostAlloc"
+  f_cudaHostAlloc :: Ptr (Ptr (CChar)) -> CSize -> CUInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaHostGetDevicePointer"
+  f_cudaHostGetDevicePointer :: Ptr (Ptr (CChar)) -> Ptr (CChar) -> CUInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaHostGetFlags"
+  f_cudaHostGetFlags :: Ptr (CUInt) -> Ptr (CChar) -> IO (CInt)
+
+--
+
+--
+-- import of function/variable/structure member(s) cudaMalloc3D :: Ptr (S_cudaPitchedPtr) -> @S_cudaExtent -> CInt is not possible
+-- because of the following reason(s):
+-- function takes/returns structure(s) directly
+--
+
+--
+
+--
+-- import of function/variable/structure member(s) cudaMalloc3DArray :: Ptr (Ptr (S_cudaArray)) -> Ptr (S_cudaChannelFormatDesc) -> @S_cudaExtent -> CUInt -> CInt is not possible
+-- because of the following reason(s):
+-- function takes/returns structure(s) directly
+--
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpy3D"
+  f_cudaMemcpy3D :: Ptr (S_cudaMemcpy3DParms) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpy3DAsync"
+  f_cudaMemcpy3DAsync :: Ptr (S_cudaMemcpy3DParms) -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemGetInfo"
+  f_cudaMemGetInfo :: Ptr (CSize) -> Ptr (CSize) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpy"
+  f_cudaMemcpy :: Ptr (CChar) -> Ptr (CChar) -> CSize -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpyToArray"
+  f_cudaMemcpyToArray :: Ptr (S_cudaArray) -> CSize -> CSize -> Ptr (CChar) -> CSize -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpyFromArray"
+  f_cudaMemcpyFromArray :: Ptr (CChar) -> Ptr (S_cudaArray) -> CSize -> CSize -> CSize -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpyArrayToArray"
+  f_cudaMemcpyArrayToArray :: Ptr (S_cudaArray) -> CSize -> CSize -> Ptr (S_cudaArray) -> CSize -> CSize -> CSize -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpy2D"
+  f_cudaMemcpy2D :: Ptr (CChar) -> CSize -> Ptr (CChar) -> CSize -> CSize -> CSize -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpy2DToArray"
+  f_cudaMemcpy2DToArray :: Ptr (S_cudaArray) -> CSize -> CSize -> Ptr (CChar) -> CSize -> CSize -> CSize -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpy2DFromArray"
+  f_cudaMemcpy2DFromArray :: Ptr (CChar) -> CSize -> Ptr (S_cudaArray) -> CSize -> CSize -> CSize -> CSize -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpy2DArrayToArray"
+  f_cudaMemcpy2DArrayToArray :: Ptr (S_cudaArray) -> CSize -> CSize -> Ptr (S_cudaArray) -> CSize -> CSize -> CSize -> CSize -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpyToSymbol"
+  f_cudaMemcpyToSymbol :: Ptr (CChar) -> Ptr (CChar) -> CSize -> CSize -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpyFromSymbol"
+  f_cudaMemcpyFromSymbol :: Ptr (CChar) -> Ptr (CChar) -> CSize -> CSize -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpyAsync"
+  f_cudaMemcpyAsync :: Ptr (CChar) -> Ptr (CChar) -> CSize -> CInt -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpyToArrayAsync"
+  f_cudaMemcpyToArrayAsync :: Ptr (S_cudaArray) -> CSize -> CSize -> Ptr (CChar) -> CSize -> CInt -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpyFromArrayAsync"
+  f_cudaMemcpyFromArrayAsync :: Ptr (CChar) -> Ptr (S_cudaArray) -> CSize -> CSize -> CSize -> CInt -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpy2DAsync"
+  f_cudaMemcpy2DAsync :: Ptr (CChar) -> CSize -> Ptr (CChar) -> CSize -> CSize -> CSize -> CInt -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpy2DToArrayAsync"
+  f_cudaMemcpy2DToArrayAsync :: Ptr (S_cudaArray) -> CSize -> CSize -> Ptr (CChar) -> CSize -> CSize -> CSize -> CInt -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpy2DFromArrayAsync"
+  f_cudaMemcpy2DFromArrayAsync :: Ptr (CChar) -> CSize -> Ptr (S_cudaArray) -> CSize -> CSize -> CSize -> CSize -> CInt -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpyToSymbolAsync"
+  f_cudaMemcpyToSymbolAsync :: Ptr (CChar) -> Ptr (CChar) -> CSize -> CSize -> CInt -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemcpyFromSymbolAsync"
+  f_cudaMemcpyFromSymbolAsync :: Ptr (CChar) -> Ptr (CChar) -> CSize -> CSize -> CInt -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemset"
+  f_cudaMemset :: Ptr (CChar) -> CInt -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemset2D"
+  f_cudaMemset2D :: Ptr (CChar) -> CSize -> CInt -> CSize -> CSize -> IO (CInt)
+
+--
+
+--
+-- import of function/variable/structure member(s) cudaMemset3D :: @S_cudaPitchedPtr -> CInt -> @S_cudaExtent -> CInt is not possible
+-- because of the following reason(s):
+-- function takes/returns structure(s) directly
+--
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemsetAsync"
+  f_cudaMemsetAsync :: Ptr (CChar) -> CInt -> CSize -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaMemset2DAsync"
+  f_cudaMemset2DAsync :: Ptr (CChar) -> CSize -> CInt -> CSize -> CSize -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+--
+-- import of function/variable/structure member(s) cudaMemset3DAsync :: @S_cudaPitchedPtr -> CInt -> @S_cudaExtent -> Ptr (S_CUstream_st) -> CInt is not possible
+-- because of the following reason(s):
+-- function takes/returns structure(s) directly
+--
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetSymbolAddress"
+  f_cudaGetSymbolAddress :: Ptr (Ptr (CChar)) -> Ptr (CChar) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetSymbolSize"
+  f_cudaGetSymbolSize :: Ptr (CSize) -> Ptr (CChar) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGraphicsUnregisterResource"
+  f_cudaGraphicsUnregisterResource :: Ptr (S_cudaGraphicsResource) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGraphicsResourceSetMapFlags"
+  f_cudaGraphicsResourceSetMapFlags :: Ptr (S_cudaGraphicsResource) -> CUInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGraphicsMapResources"
+  f_cudaGraphicsMapResources :: CInt -> Ptr (Ptr (S_cudaGraphicsResource)) -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGraphicsUnmapResources"
+  f_cudaGraphicsUnmapResources :: CInt -> Ptr (Ptr (S_cudaGraphicsResource)) -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGraphicsResourceGetMappedPointer"
+  f_cudaGraphicsResourceGetMappedPointer :: Ptr (Ptr (CChar)) -> Ptr (CSize) -> Ptr (S_cudaGraphicsResource) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGraphicsSubResourceGetMappedArray"
+  f_cudaGraphicsSubResourceGetMappedArray :: Ptr (Ptr (S_cudaArray)) -> Ptr (S_cudaGraphicsResource) -> CUInt -> CUInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetChannelDesc"
+  f_cudaGetChannelDesc :: Ptr (S_cudaChannelFormatDesc) -> Ptr (S_cudaArray) -> IO (CInt)
+
+--
+
+--
+-- import of function/variable/structure member(s) cudaCreateChannelDesc :: CInt -> CInt -> CInt -> CInt -> CInt -> @S_cudaChannelFormatDesc is not possible
+-- because of the following reason(s):
+-- function takes/returns structure(s) directly
+--
+
+--
+
+foreign import ccall "static hs_curand.h cudaBindTexture"
+  f_cudaBindTexture :: Ptr (CSize) -> Ptr (S_textureReference) -> Ptr (CChar) -> Ptr (S_cudaChannelFormatDesc) -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaBindTexture2D"
+  f_cudaBindTexture2D :: Ptr (CSize) -> Ptr (S_textureReference) -> Ptr (CChar) -> Ptr (S_cudaChannelFormatDesc) -> CSize -> CSize -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaBindTextureToArray"
+  f_cudaBindTextureToArray :: Ptr (S_textureReference) -> Ptr (S_cudaArray) -> Ptr (S_cudaChannelFormatDesc) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaUnbindTexture"
+  f_cudaUnbindTexture :: Ptr (S_textureReference) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetTextureAlignmentOffset"
+  f_cudaGetTextureAlignmentOffset :: Ptr (CSize) -> Ptr (S_textureReference) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetTextureReference"
+  f_cudaGetTextureReference :: Ptr (Ptr (S_textureReference)) -> Ptr (CChar) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaBindSurfaceToArray"
+  f_cudaBindSurfaceToArray :: Ptr (S_surfaceReference) -> Ptr (S_cudaArray) -> Ptr (S_cudaChannelFormatDesc) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetSurfaceReference"
+  f_cudaGetSurfaceReference :: Ptr (Ptr (S_surfaceReference)) -> Ptr (CChar) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaDriverGetVersion"
+  f_cudaDriverGetVersion :: Ptr (CInt) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaRuntimeGetVersion"
+  f_cudaRuntimeGetVersion :: Ptr (CInt) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h cudaGetExportTable"
+  f_cudaGetExportTable :: Ptr (Ptr (CChar)) -> Ptr (S_CUuuid_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandCreateGenerator"
+  f_curandCreateGenerator :: Ptr (Ptr (S_curandGenerator_st)) -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandCreateGeneratorHost"
+  f_curandCreateGeneratorHost :: Ptr (Ptr (S_curandGenerator_st)) -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandDestroyGenerator"
+  f_curandDestroyGenerator :: Ptr (S_curandGenerator_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandGetVersion"
+  f_curandGetVersion :: Ptr (CInt) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandSetStream"
+  f_curandSetStream :: Ptr (S_curandGenerator_st) -> Ptr (S_CUstream_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandSetPseudoRandomGeneratorSeed"
+  f_curandSetPseudoRandomGeneratorSeed :: Ptr (S_curandGenerator_st) -> CULLong -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandSetGeneratorOffset"
+  f_curandSetGeneratorOffset :: Ptr (S_curandGenerator_st) -> CULLong -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandSetGeneratorOrdering"
+  f_curandSetGeneratorOrdering :: Ptr (S_curandGenerator_st) -> CInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandSetQuasiRandomGeneratorDimensions"
+  f_curandSetQuasiRandomGeneratorDimensions :: Ptr (S_curandGenerator_st) -> CUInt -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandGenerate"
+  f_curandGenerate :: Ptr (S_curandGenerator_st) -> Ptr (CUInt) -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandGenerateUniform"
+  f_curandGenerateUniform :: Ptr (S_curandGenerator_st) -> Ptr (CFloat) -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandGenerateUniformDouble"
+  f_curandGenerateUniformDouble :: Ptr (S_curandGenerator_st) -> Ptr (CDouble) -> CSize -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandGenerateNormal"
+  f_curandGenerateNormal :: Ptr (S_curandGenerator_st) -> Ptr (CFloat) -> CSize -> CFloat -> CFloat -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandGenerateNormalDouble"
+  f_curandGenerateNormalDouble :: Ptr (S_curandGenerator_st) -> Ptr (CDouble) -> CSize -> CDouble -> CDouble -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandGenerateSeeds"
+  f_curandGenerateSeeds :: Ptr (S_curandGenerator_st) -> IO (CInt)
+
+--
+
+foreign import ccall "static hs_curand.h curandGetDirectionVectors32"
+  f_curandGetDirectionVectors32 :: Ptr (Ptr (CUInt)) -> CInt -> IO (CInt)
+
+--
+
+
+-- Split end
+
