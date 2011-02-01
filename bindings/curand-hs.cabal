@@ -1,0 +1,25 @@
+Name:                curand-hs
+Version:             0.1
+Synopsis:            Bindings to CURAND library
+Description:         Bindings to CURAND library <http://developer.nvidia.com/object/cuda_3_2_downloads.html>
+License:             BSD3
+License-file:        LICENSE
+Author:              Krzysztof Skrzętnicki
+Maintainer:          gtener@gmail.com
+Category:            System
+Build-type:          Simple
+Homepage:            https://github.com/Tener/curand-hs
+
+Cabal-version:       >=1.8
+
+Library
+  Exposed-modules:     System.Random.CURAND, System.Random.CURAND.Internal.CUDA
+  Build-depends:       base >= 3.0 && < 5, HSFFIG, CURAND, data-default
+  Hs-source-dirs:      lib
+--  Default-language:    Haskell2010
+
+Executable           curandBindingsTest
+  Main-is:           curandBindingsTest.hs
+  Hs-source-dirs:    prog
+  Build-depends:     base, curand-hs, data-default
+  
